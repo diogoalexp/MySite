@@ -5,16 +5,42 @@ import { Redirect } from 'react-router-dom';
 import Input from '../../components/UI/Input/Input';
 import Button from '../../components/UI/Button/Button';
 import Spinner from '../../components/UI/Spinner/Spinner';
-// import classes from './Auth.module.css';
+import classes from './Home.module.css';
 import * as actions from '../../store/actions/index';
 import { updateObject, checkValidity } from '../../shared/utility';
+import fotoProfile from '../../assets/images/foto_profile_nb.png';
+import matrix from '../../assets/images/matrix.gif';
+
+import Card from '../../components/Card/Profile/Profile';
 
 class Home extends Component {
+    state = {
+        items: [
+            {   
+                key:1,
+                title: 'Diogo Alexandro Pereira',
+                subTitle: 'Software Engineer & SCRUM Master',
+                text: 'Sou um cientista da computação com especialidade em engenheria de software, entusiasta das metodologias agéis e tornei essas vertentes a minha profissão, minha paixão e parte do meu dia a dia.',
+                img1: fotoProfile,
+                img2: matrix
+            }          
+        ]
+    }
 
     render () {
         return (
             <div>
-                Home
+                {this.state.items.map(item => (
+                    <Card 
+                        key={item.key}
+                        title = {item.title}
+                        subTitle = {item.subTitle}
+                        text = {item.text}
+                        img = {fotoProfile}
+                        img2 = {matrix}
+                    />
+                        
+                ))}
             </div>
         );
     }
