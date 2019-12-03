@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Redirect } from 'react-router-dom';
 
-import Input from '../../components/UI/Input/Input';
-import Button from '../../components/UI/Button/Button';
-import Spinner from '../../components/UI/Spinner/Spinner';
-// import classes from './Auth.module.css';
-import * as actions from '../../store/actions/index';
-import { updateObject, checkValidity } from '../../shared/utility';
 import Card from '../../components/Card/Item/Item';
 
 import cinq from '../../assets/images/items/cinq.png';
@@ -23,28 +16,36 @@ class Experience extends Component {
                 title: 'CINQ Technologies',
                 subTitle: 'Senior Software Engineer',
                 text: 'Consultor de análise e desenvolvimento de software, responsável pelo desenvolvimento de sistemas e melhoria de processos.',
-                img: cinq
+                img: cinq,
+                startDate: '10/15/2018', 
+                endDate: null
             },
             {   
                 key:2,
                 title: 'Grupo Positivo',
                 subTitle: 'Analista de Sistemas',
                 text: 'Responsável pela arquitetura de novos projetos e acompanhamento dos respectivos times de desenvolvimento, atuando como SCRUM Master e desenvolvedor FullStack em diversos projetos. Responsável por elaborar o processo de desenvolvimento, metodologia aplicada, padrões e convenções de código, documentação e DevOps. Responsável pela avaliação técnica de candidatos a ingressar na empresa.',
-                img: positivo
+                img: positivo,
+                startDate: '09/15/2017', 
+                endDate: '10/15/2018'
             },
             {   
                 key:3,
                 title: 'ExxonMobil',
                 subTitle: 'Analista de Sistemas',
                 text: 'Atuando como desenvolvedor FullStack e como SCRUM Master nos setores de Operation Excellence e Projetos. Responsável por automatizar diversos serviços, levantar requisitos, liderança técnica e desenvolver sistemas web.',
-                img: exxon
+                img: exxon,
+                startDate: '01/01/2015', 
+                endDate: '09/20/2017'
             },
             {   
                 key:4,
                 title: 'MPS Informática',
                 subTitle: 'Desenvolvedor',
                 text: 'Desenvolvimento e manutenção de softwares relacionados aos tribunais de justiça de diversos estados brasileiros. Software de grande porte sujeito a processo minucioso de auditória em banco de dados.',
-                img: mps
+                img: mps,
+                startDate: '10/01/2011', 
+                endDate: '12/31/2014'
             }          
         ]
     }
@@ -59,6 +60,9 @@ class Experience extends Component {
                         subTitle = {item.subTitle}
                         text = {item.text}
                         img = {item.img}
+                        startDate = {item.startDate}
+                        endDate = {item.endDate}
+                        calcDate = {true}
                     />
                         
                 ))}

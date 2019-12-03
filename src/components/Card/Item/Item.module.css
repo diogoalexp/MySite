@@ -30,7 +30,7 @@
   height: 150px;
   width: 150px;
   position: absolute;
-  margin: 20px -10px -100px -130px;
+  margin: 10px -10px -100px -130px;
   /* top: 140px;
   left: 50px; */
   transition: all 2.4s ease-in-out;
@@ -78,7 +78,7 @@
 
 .text {
   font-size: 16px;
-  line-height: 22px;
+  line-height: 20px;
   margin-bottom: 20px;
   color: #666;
   margin-left: 50px;
@@ -90,19 +90,28 @@
   /* line-height: 1.em; */
 }
 
+.dateHeader {
+  display: block;
+  font-size: 10px;
+  float: right;
+  color: #666;
+  margin-top: 10px;
+}
+
+.dateFooter {
+  display: none;
+  font-size: 10px;
+  float: right;
+  color: #666;
+  margin-top: 10px;
+}
+
 @media (max-width: 500px) {
   .container {
-      width: 50%;
+      width: 55%;
   }
   .text {
-    /* visibility: hidden; */
-    font-size: 12px;
-    display: block;
-    text-overflow: ellipsis;
-    word-wrap: break-word;
-    overflow: hidden;
-    max-height: 3.6em;
-    line-height: 1.8em;
+    display: none;
   }
   .title {
     font-size: 16px;
@@ -111,24 +120,48 @@
     color: #333;
     margin-left: 50px;
   }
+  .container {
+    margin: 10px 120px 10px;
+  }
+
+  .dateHeader {
+    display: none;
+  }
+  
+  .dateFooter {
+    display: block;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 700px) {
   .container {
       width: 60%;
   }
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;  
+    color: #333;
+    margin-left: 50px;
+  }
   .text {
-    font-size: 12px;
+    display: none;
+  }
+  .period {
+    font-size: 10px;
+    float: right;
+    color: #666;
+    margin-top: 10px;
+  }
+  .dateHeader {
+    display: none;
+  }
+  .dateFooter {
     display: block;
-    text-overflow: ellipsis;
-    word-wrap: break-word;
-    overflow: hidden;
-    max-height: 3.6em;
-    line-height: 1.8em;
   }
 }
 
-@media (min-width: 700px) and (max-width: 1000px) {
+@media (min-width: 700px) and (max-width: 1100px) {
   .container {
       width: 70%;
   }

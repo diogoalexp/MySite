@@ -8,8 +8,8 @@ const card = ( props ) => {
     return (
         <div className={classes.container}>
             <div className={classes.avatarflip}>
-                <img src={props.img ? props.img : noImg} height="150" width="150" />
-                <img src={props.img2 ? props.img2 : noImg} height="150" width="150" />
+                <img src={props.img ? props.img : noImg} height="150" width="150" alt="no img" />
+                <img src={props.img2 ? props.img2 : noImg} height="150" width="150" alt="no img"/>
             </div>
             <div>
                 <h2 className={classes.title}>{props.title}</h2>
