@@ -1,6 +1,6 @@
 .container {
     width: 80%;
-    height: 170px;
+    height: 150px;
     margin: 10px 150px 10px;
     background-color: #fff;
     padding: 0 20px 20px;
@@ -67,6 +67,7 @@
   color: #333;
   margin-left: 50px;
 }
+
 .subTitle {
   font-size: 13px;
   color: rgb(161, 2, 2);
@@ -74,10 +75,70 @@
   margin-bottom: 25px;
   margin-left: 50px;
 }
+
 .text {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 22px;
   margin-bottom: 20px;
   color: #666;
   margin-left: 50px;
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 6.0em;
+  /* line-height: 1.em; */
+}
+
+@media (max-width: 500px) {
+  .container {
+      width: 50%;
+  }
+  .text {
+    /* visibility: hidden; */
+    font-size: 12px;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+  }
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;  
+    color: #333;
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .container {
+      width: 60%;
+  }
+  .text {
+    font-size: 12px;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .container {
+      width: 70%;
+  }
+  .text {
+    font-size: 12px;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+  }
 }

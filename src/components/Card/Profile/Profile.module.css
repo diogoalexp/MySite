@@ -2,7 +2,7 @@
 
 .container {
   width: 400px;
-  margin: 120px auto 120px;
+  margin: 120px auto 10px;
   background-color: #fff;
   padding: 0 20px 20px;
   border-radius: 6px;
@@ -58,20 +58,34 @@
 }
 
 .title {
-    font-size: 32px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.subTitle {
+  font-size: 13px;
+  color: rgb(161, 2, 2);
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+@media (max-width: 500px) {
+  .container {
+      width: 300px;
+  }
+  .title {
+    font-size: 24px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 15px;  
     color: #333;
   }
-  .subTitle {
-    font-size: 13px;
-    color: rgb(161, 2, 2);
-    letter-spacing: 1px;
-    margin-bottom: 25px;
-  }
-  .text {
-    font-size: 16px;
-    line-height: 26px;
-    margin-bottom: 20px;
-    color: #666;
-  }
+}
