@@ -1,0 +1,158 @@
+.Project {    
+    --primary-color: ;
+    --background-color: ;
+    --text-color: #fff;
+    background: #fff;    
+    /* position: relative; */
+    width: 640px;
+    height: 480px;
+    float: left;
+    overflow: hidden;
+    /* padding: 10px; */
+    margin: 10px 10px;
+    border-top: 5px;
+    border-left: 5px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px #ccc;
+    position: relative;
+    text-align: left;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+  }
+
+.Project:hover {
+    /* background: #243133;    */
+    background: #455363;   
+    box-shadow: 1px 1px 2px 3px lightblue;
+    border: 0px;
+    
+}
+  
+.Imagem {
+    /* padding: 8px; */
+    height: 60%;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 5px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.Imagem img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 100%;
+    border-top: 5px;
+    border-left: 5px;
+    border-radius: 6px;
+    border: 1px dashed;    
+}
+
+.Ano {
+    color: #0060df;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    background-color: #e5e5e5;
+}
+
+.Project:hover  > .Ano {
+    color: #17ed90;
+    background-color: #1f2935;
+}
+
+.Title {
+    color: #0060df;
+    background-color: #e5e5e5;
+    font-style: bold;
+    font-size: 1.9rem;
+    text-indent: 25px;
+}
+
+.Project:hover  > .Title {
+    color: #17ed90;
+    background-color: #1f2935;
+}
+
+.SubTitle {
+    color: #fd6f53;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    text-indent: 25px;
+}
+
+.Project:hover  > .SubTitle {
+    color: #12cdea;
+}
+
+
+.Tec {
+    color: black;
+    position: absolute;
+    right: 15px;
+    background-color: yellow;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Description {    
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.9rem;
+    text-indent: 25px;
+    color: #2d2d2d;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 10px;
+    text-indent: 25px;
+}
+
+.Project:hover  > .Description {
+    color: #ffffff;
+}
+
+.Footer {
+    vertical-align: text-bottom;
+    text-align: right;
+    height: 10%;
+    color: #421e0a;
+}
+
+.Git {
+    float: right;
+    position: relative;
+    right: 15px;
+}
+
+.Git img {    
+	position: absolute;
+	width:32px;
+	height:32px;
+	/* bottom:0px;
+    left: 10px; */
+    right: 0px;
+	/* background-color:#0C9; */
+	/* color:#FFF; */
+	border-radius:50px;
+	text-align:center;
+}
+
+
+
+
+@media (max-width: 500px) {
+    .Card {
+        margin: 10px 10px 10px 10px;
+        width: 95%;
+        height: 100%;
+    }
+    
+}

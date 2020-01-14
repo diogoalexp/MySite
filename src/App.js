@@ -6,7 +6,7 @@ import asyncComponent from './hoc/asyncComponent/asyncComponent';
 import Layout from './hoc/Layout/Layout';
 import Home from './containers/Home/Home';
 import Formation from './containers/Formation/Formation';
-import Career from './containers/Career/Career';
+import Portfolio from './containers/Portfolio/Portfolio';
 import Experience from './containers/Experience/Experience';
 import Library from './containers/Library/Library';
 // import Logout from './containers/Auth/Logout/Logout';
@@ -35,7 +35,7 @@ class App extends Component {
         <Route path="/auth" component={asyncAuth} />
         <Route path="/" exact component={Home} />
         <Route path="/formation" exact component={Formation} />        
-        <Route path="/career" exact component={Career} />
+        <Route path="/portfolio" exact component={Portfolio} />
         <Route path="/experience" exact component={Experience} />
         <Route path="/library" exact component={Library} />
         <Redirect to="/" />

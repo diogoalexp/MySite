@@ -8,7 +8,7 @@ const navigationItems = ( props ) => (
         <NavigationItem link="/" exact>Home</NavigationItem>
         <NavigationItem link="/formation">Formação</NavigationItem>
         <NavigationItem link="/experience">Experiência</NavigationItem>
-        {/* <NavigationItem link="/career">Carreira</NavigationItem> */}
+        <NavigationItem link="/portfolio">Portfolio</NavigationItem>
         {/* <NavigationItem link="/library">Biblioteca</NavigationItem> */}
         {/* {props.isAuthenticated ? <NavigationItem link="/orders">Orders</NavigationItem> : null} */}
         {/* {!props.isAuthenticated
