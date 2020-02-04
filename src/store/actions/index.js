@@ -14,3 +14,7 @@ export {
     setAuthRedirectPath,
     authCheckState
 } from './auth';
+export {
+    setLanguage,
+    authCheckLang
+} from './language';

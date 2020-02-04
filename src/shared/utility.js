@@ -35,3 +35,10 @@ export const checkValidity = ( value, rules ) => {
 
     return isValid;
 }
+
+export const translate = (value) => {
+    var lang = localStorage.getItem('prefLang');
+    if(lang == "pt"){return "pt"}
+    if(lang == "en"){return "en"}
+    if(lang == "fr"){return "fr"}
+}

@@ -1,0 +1,1 @@
+export const pt_subTitle = 'Sou um cientista da computação com especialidade em engenharia de software, entusiasta das metodologias agéis e tornei essas vertentes a minha profissão, minha paixão e parte do meu dia a dia.';

@@ -1,0 +1,26 @@
+.Main {
+    /* position: absolute; */
+    width: 32px;
+    height: 32px;
+    /* right: 5px; */
+    margin-top: -5px;
+    text-align: center;
+}
+
+.Option{
+    visibility: hidden;
+}
+
+.Options:hover {
+    background-color: lightgray;
+    border: 0px solid gray;
+    border-radius: 5%;
+    box-shadow: 2px 3px gray;
+    width: 40px;
+    align-content: center;
+}
+
+.Options:hover .Option {
+    visibility: visible;
+    text-align: center;
+}

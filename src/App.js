@@ -10,7 +10,7 @@ import Portfolio from './containers/Portfolio/Portfolio';
 import Experience from './containers/Experience/Experience';
 import Library from './containers/Library/Library';
 // import Logout from './containers/Auth/Logout/Logout';
-// import * as actions from './store/actions/index';
+import * as actions from './store/actions/index';
 
 // const asyncCheckout = asyncComponent(() => {
 //   return import('./containers/Checkout/Checkout');
@@ -27,6 +27,7 @@ const asyncAuth = asyncComponent(() => {
 class App extends Component {
   componentDidMount () {
     // this.props.onTryAutoSignup();
+    this.props.onStartLanguage();
   }
 
   render () {
@@ -74,6 +75,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
     // onTryAutoSignup: () => dispatch( actions.authCheckState() )
+    onStartLanguage: () => dispatch( actions.authCheckLang() )
   };
 };
 

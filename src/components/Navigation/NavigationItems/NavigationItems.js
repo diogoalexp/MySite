@@ -2,6 +2,7 @@ import React from 'react';
 
 import classes from './NavigationItems.module.css';
 import NavigationItem from './NavigationItem/NavigationItem';
+import Language from './../../Language/Language';
 
 const navigationItems = ( props ) => (
     <ul className={classes.NavigationItems}>
@@ -14,6 +15,7 @@ const navigationItems = ( props ) => (
         {/* {!props.isAuthenticated
             ? <NavigationItem link="/auth">Authenticate</NavigationItem>
             : <NavigationItem link="/logout">Logout</NavigationItem>} */}
+        <Language></Language>
     </ul>
 );
 
