@@ -91,7 +91,7 @@ class Experience extends Component {
                 key:1,
                 title: 'CINQ Technologies',
                 subTitle: 'Ingénieur logiciel senior',
-                text: 'Consultant en analyse et développement de logiciels, responsable du développement des systèmes et de l"amélioration des processus.',
+                text: 'Consultant en analyse et développement de logiciels, responsable du développement des systèmes et de l\'amélioration des processus.',
                 img: cinq,
                 startDate: '10/15/2018', 
                 endDate: null
@@ -100,7 +100,7 @@ class Experience extends Component {
                 key:2,
                 title: 'Grupo Positivo',
                 subTitle: 'Analyste de systèmes',
-                text: 'Responsable de l"architecture des nouveaux projets et du suivi des équipes de développement respectives, agissant en tant que SCRUM Master et développeur FullStack dans plusieurs projets. Responsable du développement du processus de développement, de la méthodologie appliquée, des normes et conventions de code et de documentation et DevOps. Responsable de l"évaluation technique des candidats à rejoindre l"entreprise.',
+                text: 'Responsable de l\'architecture des nouveaux projets et du suivi des équipes de développement respectives, agissant en tant que SCRUM Master et développeur FullStack dans plusieurs projets. Responsable du développement du processus de développement, de la méthodologie appliquée, des normes et conventions de code et de documentation et DevOps. Responsable de l\'évaluation technique des candidats à rejoindre l\'entreprise.',
                 img: positivo,
                 startDate: '09/15/2017', 
                 endDate: '10/15/2018'
@@ -109,7 +109,7 @@ class Experience extends Component {
                 key:3,
                 title: 'ExxonMobil',
                 subTitle: 'Analyste de systèmes',
-                text: 'Agir en tant que développeur FullStack et SCRUM Master dans les secteurs Excellence opérationnelle et Projets. Responsable de l"automatisation de divers services, de l"augmentation des exigences, du leadership technique et du développement de systèmes Web.',
+                text: 'Agir en tant que développeur FullStack et SCRUM Master dans les secteurs Excellence opérationnelle et Projets. Responsable de l\'automatisation de divers services, de l\'augmentation des exigences, du leadership technique et du développement de systèmes Web.',
                 img: exxon,
                 startDate: '01/01/2015', 
                 endDate: '09/20/2017'
@@ -118,7 +118,7 @@ class Experience extends Component {
                 key:4,
                 title: 'MPS Informática',
                 subTitle: 'Développeur',
-                text: 'Développement et maintenance de logiciels liés aux cours de justice de plusieurs états brésiliens. Grand logiciel soumis à un processus d"audit de base de données approfondi.',
+                text: 'Développement et maintenance de logiciels liés aux cours de justice de plusieurs états brésiliens. Grand logiciel soumis à un processus d\'audit de base de données approfondi.',
                 img: mps,
                 startDate: '10/01/2011', 
                 endDate: '12/31/2014'

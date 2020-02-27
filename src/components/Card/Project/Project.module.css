@@ -97,10 +97,33 @@
     color: black;
     position: absolute;
     right: 15px;
+    /* background-color: yellow; */
+    /* border-radius: 50px; */
+    margin-top: 10px;
+    /* text-align: center; */
+}
+
+.TecOption {
+    border: 1px solid;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.TecOptionJS {
     background-color: yellow;
     border-radius: 50px;
-    margin-top: 10px;
     text-align: center;
+    margin-left: 5px;
+}
+
+.TecOptionASP {
+    background-color: darkblue;
+    color: white;
+    border: 5px bold;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 5px;
 }
 
 .Description {    
@@ -143,16 +166,4 @@
 	/* color:#FFF; */
 	border-radius:50px;
 	text-align:center;
-}
-
-
-
-
-@media (max-width: 500px) {
-    .Card {
-        margin: 10px 10px 10px 10px;
-        width: 95%;
-        height: 100%;
-    }
-    
 }

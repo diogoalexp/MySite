@@ -51,7 +51,7 @@ class Formation extends Component {
                 key:5,
                 title: 'Curso de Francês',
                 subTitle: 'Centro de Línguas e Interculturalidade',
-                text: 'Cursando atualmente o nível intermediário 2...',
+                text: 'Cursando atualmente o nível avançado...',
                 img: celin,
                 startDate: '2017', 
                 endDate: null
@@ -99,7 +99,7 @@ class Formation extends Component {
                 key:5,
                 title: 'French course',
                 subTitle: 'Centro de Línguas e Interculturalidade',
-                text: 'Currently attending intermediate level 2 ...',
+                text: 'Currently attending advanced ...',
                 img: celin,
                 startDate: '2017', 
                 endDate: null
@@ -110,7 +110,7 @@ class Formation extends Component {
                 key:1,
                 title: 'Spécialisation en génie logiciel',
                 subTitle: 'Universidade Federal do Paraná',
-                text: 'Spécialisation en mettant l"accent sur les métogolodies de développement, dans ce cours, j"ai amélioré les concepts d"ingénierie des exigences, la modélisation logicielle, la gestion de projet et le développement JAVA. Mon travail de fin de cours était la construction d"un système, couvrant toutes les phases d"un projet, pour enregistrer les foires de rue dans la ville de Curitiba.',
+                text: 'Spécialisation en mettant l\'accent sur les métogolodies de développement, dans ce cours, j\'ai amélioré les concepts d\'ingénierie des exigences, la modélisation logicielle, la gestion de projet et le développement JAVA. Mon travail de fin de cours était la construction d\'un système, couvrant toutes les phases d\'un projet, pour enregistrer les foires de rue dans la ville de Curitiba.',
                 img: ufpr,
                 startDate: '2018', 
                 endDate: '2019'
@@ -129,16 +129,16 @@ class Formation extends Component {
                 key:3,
                 title: 'Ecole Technique UFPR',
                 subTitle: 'Universidade Federal do Paraná',
-                text: 'Lycée détenu au sein de l"Université fédérale du Paraná, considéré pendant des années comme l"excellence au lycée et avec un processus de sélection compétitif, actuellement l"établissement n"offre plus ce service. À cet endroit, j"ai suivi des cours élémentaires de niveau moyen et des modules supplémentaires, tels que l"informatique, les mathématiques financières et l"espagnol (3 ans).',
+                text: 'Lycée détenu au sein de l\'Université fédérale du Paraná, considéré pendant des années comme l\'excellence au lycée et avec un processus de sélection compétitif, actuellement l\'établissement n\'offre plus ce service. À cet endroit, j\'ai suivi des cours élémentaires de niveau moyen et des modules supplémentaires, tels que l\'informatique, les mathématiques financières et l\'espagnol (3 ans).',
                 img: ufpr,
                 startDate: '2004', 
                 endDate: '2006'
             },
             {   
                 key:4,
-                title: 'Cours d"anglais',
+                title: 'Cours d\'anglais',
                 subTitle: 'Influx English School',
-                text: 'Ecole d"anglais avec programme d"apprentissage et objectif de maîtrise en 2 ans et demi. J"ai effectué tous les niveaux proposés.',
+                text: 'Ecole d\'anglais avec programme d\'apprentissage et objectif de maîtrise en 2 ans et demi. J\'ai effectué tous les niveaux proposés.',
                 img: influx,
                 startDate: '2010', 
                 endDate: '2012'
@@ -147,7 +147,7 @@ class Formation extends Component {
                 key:5,
                 title: 'Cours de français',
                 subTitle: 'Centro de Línguas e Interculturalidade',
-                text: 'Actuellement au niveau intermédiaire 2 ...',
+                text: 'Actuellement au niveau avancé ...',
                 img: celin,
                 startDate: '2017', 
                 endDate: null

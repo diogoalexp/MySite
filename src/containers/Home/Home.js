@@ -37,7 +37,7 @@ class Home extends Component {
                 key:1,
                 title: 'Diogo Alexandro Pereira',
                 subTitle: 'Ingénieur Logiciel & SCRUM Master',
-                text: 'Je suis un informaticien spécialisé en génie logiciel, passionné de méthodologies agiles et j"ai fait de ces aspects mon métier, ma passion et une partie de ma vie quotidienne.',
+                text: 'Je suis un informaticien spécialisé en génie logiciel, passionné de méthodologies agiles et j\'ai fait de ces aspects mon métier, ma passion et une partie de ma vie quotidienne.',
                 img1: fotoProfile,
                 img2: matrix
             }          

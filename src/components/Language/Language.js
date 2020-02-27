@@ -57,7 +57,7 @@ class Language extends Component {
                         <img className={classes.Image} src={img} height="32" width="32" alt="no img" />
                         {this.state.options.map(option => (
                             selected != option.lang ?
-                            <div className={classes.Option} onClick={() => this.changeValue(option.lang)}>
+                            <div key={option.lang} className={classes.Option} onClick={() => this.changeValue(option.lang)}>
                                 <img src={option.flag} height="32" width="32" alt="no img" />
                             </div>
                             : null

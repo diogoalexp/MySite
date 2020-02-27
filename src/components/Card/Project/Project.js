@@ -11,6 +11,27 @@ const project = ( props ) => {
     // const img = "https://image.tmdb.org/t/p/w600_and_h900_bestv2/jvg9Rf3mvsVTnhuyxPlN0eEL76C.jpg";
     const CardClasses = [classes.Project];
 
+    const tecColor = (option) => {
+        switch(option){
+            case 'ReactJS':
+                return classes.TecOptionJS;
+                break;
+            case 'AngularJS':
+                return classes.TecOptionJS;
+                break;                
+            case 'ASP.NET':
+                return classes.TecOptionASP;
+                break;
+            case 'ASP.CORE':
+                return classes.TecOptionASP;
+                break;
+            case 'C#':
+                return classes.TecOptionASP;
+                break;
+        }
+        return classes.TecOption;
+    }
+
     return (
             <div className={CardClasses.join(" ")} onClick={props.clicked}>
                 <div className={classes.Title}>
@@ -23,7 +44,12 @@ const project = ( props ) => {
                     <img src={img} alt="Sem Foto" />
                 </div>
                 <div className={classes.Tec}>
-                    <b>&nbsp;{props.tec}&nbsp;</b>
+                    {/* <b>&nbsp;{props.tec}&nbsp;</b> */}
+                    {props.tec.map(option => (
+                            <label key={option} className={tecColor(option)}>
+                                <b>&nbsp;{option}&nbsp;</b>
+                            </label>
+                        ))}   
                 </div>
                 <div className={classes.SubTitle}>
                     <b>{props.subTitle}</b>
