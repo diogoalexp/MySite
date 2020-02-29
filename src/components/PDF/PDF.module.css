@@ -1,0 +1,19 @@
+.Main {
+    /* padding: 8px; */
+    /* background-color: blue; */
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.Document {
+    /* padding: 8px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Page {
+
+}

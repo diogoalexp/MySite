@@ -12,19 +12,22 @@ class NavigationItems extends Component {
             home:"Home",
             formation: 'Formação',
             experience: 'Experiência',
-            portfolio: 'Portfólio'
+            portfolio: 'Portfólio',
+            library: 'Biblioteca'
         },
         en: {   
             home:"Home",
             formation: 'Formation',
             experience: 'Experience',
-            portfolio: 'Portfolio'
+            portfolio: 'Portfolio',
+            library: 'Library'
         },
         fr: {   
             home:"Home",
             formation: 'Formation',
             experience: 'Expérience',
-            portfolio: 'Portfolio'
+            portfolio: 'Portfolio',
+            library: 'Bibliothèque'
         }     
     }
 
@@ -36,6 +39,7 @@ class NavigationItems extends Component {
                 <NavigationItem link="/formation">{menu.formation}</NavigationItem>
                 <NavigationItem link="/experience">{menu.experience}</NavigationItem>
                 <NavigationItem link="/portfolio">{menu.portfolio}</NavigationItem>
+                <NavigationItem link="/library">{menu.library}</NavigationItem>
                 {/* <NavigationItem link="/library">Biblioteca</NavigationItem> */}
                 {/* {props.isAuthenticated ? <NavigationItem link="/orders">Orders</NavigationItem> : null} */}
                 {/* {!props.isAuthenticated
