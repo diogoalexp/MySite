@@ -1,0 +1,10 @@
+<div class="flexbox-column " >
+    <div class="flexbox-row">
+    <aside class="sidebar">
+        @for (item of items(); track $index) {
+            <app-formation-card [formation]="item" />
+        }
+    </aside>
+    <app-formation-article [formation]="items()[1]" class="article"/>
+</div>
+</div>
