@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 import { Formation } from '../formation.model';
 
 @Component({
@@ -9,8 +9,4 @@ import { Formation } from '../formation.model';
 })
 export class FormationCardComponent {
   formation = input.required<Formation>();
-
-  onClick() {
-    console.log('clicked')
-  }
 }

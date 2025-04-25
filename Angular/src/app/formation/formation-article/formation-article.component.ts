@@ -8,5 +8,5 @@ import { Formation } from '../formation.model';
   styleUrl: './formation-article.component.css'
 })
 export class FormationArticleComponent {
-  formation = input.required<Formation>();
+  formation = input<Formation>();
 }

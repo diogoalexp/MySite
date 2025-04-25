@@ -2,9 +2,9 @@
     <div class="flexbox-row">
     <aside class="sidebar">
         @for (item of items(); track $index) {
-            <app-formation-card [formation]="item" />
+            <app-formation-card [formation]="item" (click)="onSelectFormation(item)" />
         }
     </aside>
-    <app-formation-article [formation]="items()[1]" class="article"/>
+    <app-formation-article [formation]="selectedItem" class="article"/>
 </div>
 </div>

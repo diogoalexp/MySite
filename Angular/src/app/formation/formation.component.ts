@@ -11,7 +11,7 @@ import { FormationArticleComponent } from "./formation-article/formation-article
 })
 export class FormationComponent implements OnInit {
   items = signal<Formation[]>([]);
-  selectedItem = input.required<Formation>();
+  selectedItem?: Formation = this.items()[0];
 
   ngOnInit(): void {
     for (let index = 0; index < 5; index++) {
@@ -27,7 +27,11 @@ export class FormationComponent implements OnInit {
       ])
 
     }
+  }
 
+  onSelectFormation(formation : Formation){
+    console.log("clicked", formation)
+    this.selectedItem = formation;
   }
 
 }
