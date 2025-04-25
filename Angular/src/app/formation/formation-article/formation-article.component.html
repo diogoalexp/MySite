@@ -1,4 +1,5 @@
-<article class="article-card">
+@if(formation()){
+  <article class="article-card">
     <img src="{{formation()?.image}}" alt="Article image" class="article-image" />
     <div class="article-body">
       <h2 class="article-title">{{formation()?.title}}</h2>
@@ -7,3 +8,6 @@
       </p>
     </div>
   </article>
+}@else{
+  <p>Select a formation for more details.</p>
+}

@@ -1,7 +1,8 @@
-import { Component, input, OnInit, signal } from '@angular/core';
+import { Component, inject, input, OnInit, signal } from '@angular/core';
 import { Formation } from './formation.model';
 import { FormationCardComponent } from "./formation-card/formation-card.component";
 import { FormationArticleComponent } from "./formation-article/formation-article.component";
+import { FormationsService } from './formation.service';
 
 @Component({
   selector: 'app-formation',
@@ -10,23 +11,14 @@ import { FormationArticleComponent } from "./formation-article/formation-article
   styleUrl: './formation.component.css',
 })
 export class FormationComponent implements OnInit {
+  private formationsService = inject(FormationsService);
   items = signal<Formation[]>([]);
   selectedItem?: Formation = this.items()[0];
 
   ngOnInit(): void {
-    for (let index = 0; index < 5; index++) {
-      this.items.update((prev) => [...prev,
-        {
-          title: "title"+index,
-          place: "place"+index,
-          description: "description"+index,
-          icon: "profile.jpg",
-          image: "profile.jpg",
-          text: "text"+index
-        }
-      ])
+    this.formationsService.loadFormations();
 
-    }
+    this.items.set(this.formationsService.loadedFormations());
   }
 
   onSelectFormation(formation : Formation){

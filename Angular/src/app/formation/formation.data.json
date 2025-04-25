@@ -1,0 +1,18 @@
+[
+    {
+        "title": "title",
+        "place": "place",
+        "description": "description",
+        "icon": "profile.jpg",
+        "image": "profile.jpg",
+        "text": "text"
+    },
+    {
+        "title": "title",
+        "place": "place",
+        "description": "description",
+        "icon": "profile.jpg",
+        "image": "profile.jpg",
+        "text": "text"
+    }
+]
