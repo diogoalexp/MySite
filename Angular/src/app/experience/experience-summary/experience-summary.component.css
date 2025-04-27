@@ -1,0 +1,28 @@
+.tech-summary-card {
+    max-width: 500px;
+    background: #fdfdfd;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+
+  .tech-summary-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #007acc;
+  }
+
+  .tech-summary-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tech-summary-card li {
+    margin-bottom: 10px;
+    padding-left: 1em;
+    position: relative;
+  }

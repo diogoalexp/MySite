@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
 import { FormationComponent } from './formation/formation.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 export const routes: Routes = [
     {
@@ -12,6 +13,11 @@ export const routes: Routes = [
     {
         path: 'formation',
         component: FormationComponent,
-        title: 'diogoalexp'
+        title: 'diogoalexp - formation'
+    },
+    {
+        path: 'experience',
+        component: ExperienceComponent,
+        title: 'diogoalexp - experience'
     }
 ];

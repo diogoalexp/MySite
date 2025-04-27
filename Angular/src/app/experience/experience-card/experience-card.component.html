@@ -1,0 +1,35 @@
+<div class="experience">
+    <div class="job-title">{{experience().title}}</div>
+    <div class="company">{{experience().company}}</div>
+    <div class="date">Jan 2022 – Present</div>
+    <div class="description">
+      {{experience().description}}
+    </div>
+    <details open>
+      <summary>Projects</summary>
+      @for (project of experience().projects; track $index) {
+        <div class="projects">
+          <div class="company">{{project.name}}</div>
+          <div class="date">{{project.start}} – {{project.end}}</div>
+          <p>{{project.details}}</p>
+
+          <h5>Achivements</h5>
+          @for (achievement of project.achievements; track $index) {
+            <li>{{achievement}}</li>
+          }
+          <div class="skills">
+            <label >Skills:</label>
+            @for (skill of project.skills; track $index) {
+              @if ($index === 0) {
+                <span> {{skill}}</span>
+              }@else{
+                <span>, {{skill}}</span>
+              }
+            }
+          </div>
+
+
+        </div>
+      }
+    </details>
+  </div>

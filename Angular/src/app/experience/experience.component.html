@@ -1,0 +1,4 @@
+<app-experience-summary />
+@for (item of items(); track $index) {
+    <app-experience-card [experience]="item" />
+}

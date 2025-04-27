@@ -1,0 +1,41 @@
+[
+    {
+        "title": "Desenvolvedor",
+        "company": "MPS Informática",
+        "description": "Desenvolvimento e manutenção de softwares relacionados aos tribunais de justiça de diversos estados brasileiros. Software de grande porte sujeito a processo minucioso de auditória em banco de dados.",
+        "icon": "assets/images/items/mps.png",
+        "projects": [
+            {
+                "name": "name1",
+                "start": "start1",
+                "end": "end1",
+                "details": "details1",
+                "achievements": [
+                    "achievements1",
+                    "achievements2"
+                ],
+                "skills": [
+                    "skills1",
+                    "skills2"
+                ]
+            },
+            {
+                "name": "name1",
+                "start": "start1",
+                "end": "end1",
+                "details": "details1",
+                "achievements": [
+                    "achievements1",
+                    "achievements2"
+                ],
+                "skills": [
+                    "skills1",
+                    "skills2"
+                ]
+            }
+        ]
+    },
+    {
+
+    }
+]
