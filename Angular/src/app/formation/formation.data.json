@@ -1,18 +1,42 @@
 [
     {
-        "title": "title",
-        "place": "place",
-        "description": "description",
-        "icon": "profile.jpg",
-        "image": "profile.jpg",
+        "title": "Especialização em Engenharia de Software",
+        "place": "Universidade Federal do Paraná",
+        "description": "Especialização com o foco em metogolodias de desenvolvimento, neste curso aprimorei conceitos de engenharia de requisitos, modelagem de software, gestão de projetos e desenvolvimento JAVA. Meu trabalho de conclusão de curso foi a construção de um sistema, contemplando todas as fases de um projeto, para realizar o cadatramento das feiras de rua na cidade de Curitiba.",
+        "icon": "assets/images/items/ufpr.png",
+        "image": "assets/images/items/ufpr.png",
         "text": "text"
     },
     {
-        "title": "title",
-        "place": "place",
-        "description": "description",
-        "icon": "profile.jpg",
-        "image": "profile.jpg",
+        "title": "Bacharelado em Ciência da Computação",
+        "place": "Universidade Federal do Paraná",
+        "description": "Curso com fundamentação em lógica computacional, curso com uma base muito forte para a compreensão de estruturas algoritmicas. Nessa graduação é explorado todos os níveis de codificação, sendo parte do conteúdo algoritmos, matemática, estatística, análise assintótica, indução, grafos, inteligência artificial, compiladores e etc.",
+        "icon": "assets/images/items/ufpr.png",
+        "image": "assets/images/items/ufpr.png",
+        "text": "text"
+    },
+    {
+        "title": "Escola Técnica da UFPR",
+        "place": "Universidade Federal do Paraná",
+        "description": "Ensino médio realizado dentro da Universidade Federal do Paraná, considerado por anos como excelência em ensino médio e com processo seletivo concorrido, atualmente a instituição não oferta mais esse serviço. Neste local realizei as disciplinas elementares no nivel médio e módulos suplementares, como informática, matemática financeira e Espanhol(3 anos).",
+        "icon": "assets/images/items/ufpr.png",
+        "image": "assets/images/items/ufpr.png",
+        "text": "text"
+    },
+    {
+        "title": "Curso de Inglês",
+        "place": "Influx English School",
+        "description": "Escola de inglês com programa de aprendizado e meta de fluência em 2 anos e meio. Realizei todos os niveis ofertados.",
+        "icon": "assets/images/items/influx.png",
+        "image": "assets/images/items/influx.png",
+        "text": "text"
+    },
+    {
+        "title": "Curso de Francês",
+        "place": "Centro de Línguas e Interculturalidade",
+        "description": "Em andamento...",
+        "icon": "assets/images/items/celin.png",
+        "image": "assets/images/items/celin.png",
         "text": "text"
     }
 ]

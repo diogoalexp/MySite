@@ -38,3 +38,10 @@
     color: #333;
     font-size: 1rem;
   }
+
+  .card:hover {
+    transform: translateY(-5px);
+    background-color: #ddd;
+    border-color: #999;
+    cursor: pointer;
+  }
