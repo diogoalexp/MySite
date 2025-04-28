@@ -52,12 +52,6 @@
 
   .projects {
     margin-left: 25px;
+    margin-bottom: 10px;
   }
 
-  .skills {
-    margin-top: 25px;
-  }
-
-  .skills label {
-    font-weight: bold;
-  }

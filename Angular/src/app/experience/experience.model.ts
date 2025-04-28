@@ -8,8 +8,8 @@ export interface Experience {
 
 export interface Project {
     name: string;
-    start: string;
-    end: string;
+    start: Date;
+    end: Date;
     details: string;
     achievements: string[];
     skills: string[];

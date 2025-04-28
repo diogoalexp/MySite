@@ -1,0 +1,12 @@
+.date {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.skills {
+  margin-top: 25px;
+}
+
+.skills label {
+  font-weight: bold;
+}

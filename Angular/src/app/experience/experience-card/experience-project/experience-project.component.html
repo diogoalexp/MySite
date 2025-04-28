@@ -1,0 +1,19 @@
+<div class="projects">
+    <div class="date">{{displayTime()}}</div>
+    <p>{{project().details}}</p>
+
+    <h5>Achivements</h5>
+    @for (achievement of project().achievements; track $index) {
+      <li>{{achievement}}</li>
+    }
+    <div class="skills">
+      <label >Skills:</label>
+      @for (skill of project().skills; track $index) {
+        @if ($index === 0) {
+          <span> {{skill}}</span>
+        }@else{
+          <span>, {{skill}}</span>
+        }
+      }
+    </div>
+  </div>
