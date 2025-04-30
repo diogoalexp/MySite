@@ -1,40 +1,38 @@
-import { Component, input } from '@angular/core';
+import { Component, input, OnInit } from '@angular/core';
 import { Experience, Project } from '../experience.model';
-import { ExperienceProjectComponent } from "./experience-project/experience-project.component";
+import { ExperienceProjectComponent } from './experience-project/experience-project.component';
+import { DatePipe } from '@angular/common';
+import { ConvertToPeriod, PeriodDisplay, TimeDiff } from '../../shared/date.util';
 
 @Component({
   selector: 'app-experience-card',
-  imports: [ExperienceProjectComponent],
+  imports: [ExperienceProjectComponent, DatePipe],
   templateUrl: './experience-card.component.html',
-  styleUrl: './experience-card.component.css'
+  styleUrl: './experience-card.component.css',
 })
-export class ExperienceCardComponent {
+export class ExperienceCardComponent implements OnInit {
   experience = input.required<Experience>();
+  firstDate: Date | null = null;
+  lastDate: Date | null = null;
+  displayTime: string = '';
 
-  experiencePeriod(){
-    var firstDate;
-    var lastDate;
-    this.experience().projects.forEach((project) =>{
-      var diff = this.getDataDiff(new Date(project.start), new Date(project.end));
-      console.log(diff);
-    })
+  ngOnInit(): void {
+    this.displayTime = this.calculateExperienceTime();
   }
 
   //TODO: Create pipe
-  displayTime(project: Project){
-    var diff = this.getDataDiff(new Date(project.start), new Date(project.end));
-    console.log(diff);
-    return diff.year + ' anos e ' + diff.month + ' meses'
-  }
+  calculateExperienceTime() {
 
-  getDataDiff(startDate: Date, endDate: Date) {
-    var diff = endDate.getTime() - startDate.getTime();
-    var years = Math.floor(diff / (1000 * 60 * 60 * 24 * 30.44 * 12))
-    var months = Math.floor(diff / (1000 * 60 * 60 * 24 * 30.44)) - (years * 12)
-    var days = Math.floor(diff / (60 * 60 * 24 * 1000)) - (months * 30.44);
-    var hours = Math.floor(diff / (60 * 60 * 1000)) - (days * 24);
-    var minutes = Math.floor(diff / (60 * 1000)) - ((days * 24 * 60) + (hours * 60));
-    var seconds = Math.floor(diff / 1000) - ((days * 24 * 60 * 60) + (hours * 60 * 60) + (minutes * 60));
-    return { year: years, month: months, day: days, hour: hours, minute: minutes, second: seconds };
+    this.experience().projects.forEach((project) => {
+      if (!this.firstDate || this.firstDate.getTime() > new Date(project.start).getTime())
+        this.firstDate = new Date(project.start);
+
+      if (!this.lastDate || this.lastDate.getTime() < new Date(project.end).getTime())
+        this.lastDate = new Date(project.end);
+    });
+
+    var diff = TimeDiff(this.firstDate!, this.lastDate!);
+    var period = ConvertToPeriod(diff);
+    return PeriodDisplay(period);
   }
 }

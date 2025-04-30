@@ -1,57 +1,61 @@
 .experience {
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
-  }
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
 
-  .experience:last-child {
-    border-bottom: none;
-  }
+.experience:last-child {
+  border-bottom: none;
+}
 
-  .job-title {
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: #007bff;
-  }
+.job-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #007bff;
+}
 
-  .company {
-    color: #555;
-    font-style: italic;
-  }
+.company {
+  color: #555;
+  font-style: italic;
+}
 
-  .date {
-    font-size: 0.9rem;
-    color: #999;
-  }
+.date {
+  font-size: 0.9rem;
+  color: #999;
+}
 
-  .description {
-    margin-top: 5px;
-    color: #444;
-    line-height: 1.4;
-  }
+.place {
+  font-size: 0.9rem;
+  color: #999;
+}
 
-  details {
-    padding: 10px;
-    border-radius: 5px;
-    font-family: sans-serif;
-  }
+.description {
+  margin-top: 5px;
+  color: #444;
+  line-height: 1.4;
+}
 
-  summary {
-    font-weight: bold;
-    cursor: pointer;
-    outline: none;
-  }
+details {
+  padding: 10px;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
 
-  summary:hover {
-    color: #007bff;
-  }
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
 
-  details[open] summary {
-    color: #333;
-  }
+summary:hover {
+  color: #007bff;
+}
 
-  .projects {
-    margin-left: 25px;
-    margin-bottom: 10px;
-  }
+details[open] summary {
+  color: #333;
+}
 
+.projects {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}

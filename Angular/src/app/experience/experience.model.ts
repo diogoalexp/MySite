@@ -1,6 +1,8 @@
 export interface Experience {
     title: string;
     company: string;
+    country: string;
+    city: string;
     description: string;
     icon: string;
     projects: Project[];

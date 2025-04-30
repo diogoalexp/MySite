@@ -22,7 +22,6 @@ export class FormationComponent implements OnInit {
   }
 
   onSelectFormation(formation : Formation){
-    console.log("clicked", formation)
     this.selectedItem = formation;
   }
 
