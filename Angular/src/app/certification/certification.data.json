@@ -1,12 +1,12 @@
 [
     {
-        "title": "Angular - The Complete Guide;",
-        "organization": "Udemy;",
-        "date": "Apr 2025;",
-        "credential": "UC-2381f984-c397-4ef8-9664-b2c18357677a;",
-        "url": "https://www.udemy.com/certificate/UC-2381f984-c397-4ef8-9664-b2c18357677a/;",
-        "icon": "assets/images/items/influx.png",
-        "file": "assets/files/sample.pdf"
+        "title": "Angular - The Complete Guide",
+        "organization": "Udemy",
+        "date": "Apr 2025",
+        "credential": "UC-2381f984-c397-4ef8-9664-b2c18357677a",
+        "url": "https://www.udemy.com/certificate/UC-2381f984-c397-4ef8-9664-b2c18357677a",
+        "icon": "assets/icons/udemy.png",
+        "file": "assets/certifications/UC-2381f984-c397-4ef8-9664-b2c18357677a.pdf"
     },
     {
         "title": "Angular - The Complete Guide;",
@@ -15,6 +15,6 @@
         "credential": "UC-2381f984-c397-4ef8-9664-b2c18357677a;",
         "url": "https://www.udemy.com/certificate/UC-2381f984-c397-4ef8-9664-b2c18357677a/;",
         "icon": "assets/images/items/influx.png",
-        "file": "assets/files/pos.pdf"
+        "file": "assets/files/sample.pdf"
     }
 ]

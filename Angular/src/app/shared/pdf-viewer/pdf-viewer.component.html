@@ -1,9 +1,3 @@
 <div class="pdf-viewer">
-    <p>{{pdfUrl()}}</p>
     <object [data]="getUrl()" type="application/pdf"></object>
-    <!-- <div class="controls">
-      <button (click)="goToPreviousPage()">Previous</button>
-      <span>{{ currentPage }} / {{ totalPages }}</span>
-      <button (click)="goToNextPage()">Next</button>
-    </div> -->
   </div>

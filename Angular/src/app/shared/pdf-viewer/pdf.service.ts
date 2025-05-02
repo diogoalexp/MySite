@@ -5,8 +5,6 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class PdfService {
-  private pdfUrl = 'https://clubrunner.blob.core.windows.net/00000100463/en-ca/files/homepage/sample-pdf-page/SamplePDFPage.pdf'; // Replace with your PDF URL
-
   constructor(private http: HttpClient) {}
 
   getPDF(pdfUrl: string): Promise<Blob | undefined> {
