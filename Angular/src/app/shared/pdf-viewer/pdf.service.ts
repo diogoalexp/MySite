@@ -9,8 +9,9 @@ export class PdfService {
 
   constructor(private http: HttpClient) {}
 
-  getPDF(): Promise<Blob | undefined> {
-    return this.http.get(this.pdfUrl, { responseType: 'blob' })
+  getPDF(pdfUrl: string): Promise<Blob | undefined> {
+    console.log("pdfUrl", pdfUrl)
+    return this.http.get(pdfUrl, { responseType: 'blob' })
       .toPromise();
   }
 }

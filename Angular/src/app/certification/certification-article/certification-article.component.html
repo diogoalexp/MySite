@@ -1,7 +1,7 @@
 @if(certification()){
     <article class="article-card">
       <p>{{certification()?.file}}</p>
-      <app-pdf-viewer />
+      <app-pdf-viewer [pdfUrl]="certification()?.file!"/>
     </article>
   }@else{
     <p>Select a formation for more details.</p>

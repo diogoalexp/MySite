@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, signal } from '@angular/core';
 import { PdfService } from './pdf.service';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
@@ -9,18 +9,22 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
   styleUrl: './pdf-viewer.component.css'
 })
 export class PdfViewerComponent {
-  pdfSafeUrl?: SafeHtml;
-  pdfUrl?: string;
+  pdfSafeUrl = signal<SafeHtml>("") ;
+  pdfUrl = input.required<string>();
 
   constructor(private pdfService: PdfService, protected _sanitizer: DomSanitizer) {}
 
   async ngOnInit() {
-    const blob = await this.pdfService.getPDF()!
+    const blob = await this.pdfService.getPDF(this.pdfUrl())!
 
 
     let url = window.URL.createObjectURL(blob!);
 
-    this.pdfUrl = url;
-    this.pdfSafeUrl = this._sanitizer.bypassSecurityTrustResourceUrl(url);
+    // this.pdfUrl = url;
+    this.pdfSafeUrl?.set(this._sanitizer.bypassSecurityTrustResourceUrl(url));
+  }
+
+  getUrl = () =>{
+    return this._sanitizer.bypassSecurityTrustResourceUrl(this.pdfUrl());
   }
 }
