@@ -1,0 +1,10 @@
+<div class="flexbox-column " >
+    <div class="flexbox-row">
+    <aside class="sidebar">
+        @for (item of items(); track $index) {
+            <app-certification-card [certification]="item" (click)="onSelectCertification(item)" />
+        }
+    </aside>
+    <app-certification-article [certification]="selectedItem" class="article"/>
+</div>
+</div>
