@@ -34,6 +34,10 @@
     color: #f39c12;
   }
 
+  .nav-links .selected {
+    color: #e4a33c;
+  }
+
   @media (max-width: 768px) {
     .nav-links {
       flex-direction: column;

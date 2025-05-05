@@ -2,11 +2,11 @@
     <a routerLink="./"><img src="favicon.ico" class="logo" alt="MyLogo" width="24"/></a>
     <nav class="nav">
       <ul class="nav-links">
-        <li><a routerLink="./" >Perfil</a></li>
-        <li><a routerLink="./formation" >Formação</a></li>
-        <li><a routerLink="./experience">Experiência</a></li>
-        <li><a routerLink="./certification">Certificados</a></li>
-        <li><a routerLink="./">Portfólio</a></li>
+        <li><a routerLink="./" class="{{currentRouteStyle('/')}}" >Perfil</a></li>
+        <li><a routerLink="./formation" class="{{currentRouteStyle('/formation')}}" >Formação</a></li>
+        <li><a routerLink="./experience" class="{{currentRouteStyle('/experience')}}" >Experiência</a></li>
+        <li><a routerLink="./certification" class="{{currentRouteStyle('/certification')}}" >Certificados</a></li>
+        <!-- <li><a routerLink="./" class="{{currentRouteStyle('/')}}" >Portfólio</a></li> -->
       </ul>
     </nav>
   </header>

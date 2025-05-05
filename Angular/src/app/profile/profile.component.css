@@ -6,6 +6,7 @@
     max-width: 300px;
     text-align: center;
     transition: transform 0.3s ease;
+    margin-top: 20px;
   }
 
   .profile-card:hover {

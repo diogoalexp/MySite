@@ -14,8 +14,8 @@
     width: 50%;
     padding: 1rem;
     gap: 1rem;
-    border-right: 1px solid #ccc;
-    height: 75vh;
+    border-right: 1px solid #cfc5c5;
+    height: 85vh;
     overflow-y: auto;
   }
 
