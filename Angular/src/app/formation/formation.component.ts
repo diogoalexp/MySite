@@ -19,6 +19,8 @@ export class FormationComponent implements OnInit {
     this.formationsService.loadFormations();
 
     this.items.set(this.formationsService.loadedFormations());
+
+    this.selectedItem = this.items()[0];
   }
 
   onSelectFormation(formation : Formation){
