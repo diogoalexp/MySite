@@ -27,6 +27,7 @@ export class ExperienceCardComponent implements OnInit {
       if (!this.firstDate || this.firstDate.getTime() > new Date(project.start).getTime())
         this.firstDate = new Date(project.start);
 
+
       if (!this.lastDate || this.lastDate.getTime() < new Date(project.end).getTime())
         this.lastDate = new Date(project.end);
     });

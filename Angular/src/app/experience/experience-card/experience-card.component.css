@@ -1,7 +1,9 @@
 .experience {
-  margin-bottom: 15px;
-  padding-bottom: 10px;
+  padding: 20px;
+  margin-left: 15%;
   border-bottom: 1px solid #eee;
+  max-width: 70%;
+  justify-content: center;
 }
 
 .experience:last-child {
@@ -13,6 +15,28 @@
   font-size: 1.1rem;
   color: #007bff;
 }
+
+.company-card{
+  display        : flex;
+  flex-direction : row;
+}
+
+.company-card-description{
+  display: inline-block;
+  align-self: flex-end;
+  margin-left: 10px;
+}
+
+.company-card-logo{
+}
+
+.company-card-logo-icon{
+  height: 64px;
+  width: 64px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
 
 .company {
   color: #555;

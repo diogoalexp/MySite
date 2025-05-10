@@ -1,8 +1,16 @@
 <div class="experience">
-    <div class="job-title">{{experience().title}}</div>
-    <div class="company">{{experience().company}}</div>
-    <div class="date">{{this.firstDate | date:"MMM, y"}} – {{this.lastDate | date:"MMM, y"}} • {{displayTime}}</div>
-    <div class="place">{{experience().city}}, {{experience().country}}</div>
+    <div class="company-card">
+      <div class="company-card-logo">
+          <img src="{{experience().icon}}" alt="Article image" class="company-card-logo-icon" />
+      </div>
+      <div class="company-card-description">
+          <div class="job-title">{{experience().title}}</div>
+          <div class="company">{{experience().company}}</div>
+          <div class="date">{{this.firstDate | date:"MMM, y"}} – {{this.lastDate | date:"MMM, y"}} • {{displayTime}}</div>
+          <div class="place">{{experience().city}}, {{experience().country}}</div>
+      </div>
+    </div>
+
     <div class="description">
       {{experience().description}}
     </div>
