@@ -9,4 +9,9 @@ import { Formation } from '../formation.model';
 })
 export class FormationCardComponent {
   formation = input.required<Formation>();
+  isSelected = input.required<Boolean>();
+
+  cardStyle = () =>{
+    return this.isSelected() ? "card-selected" : ""
+  }
 }

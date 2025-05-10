@@ -27,4 +27,8 @@ export class FormationComponent implements OnInit {
     this.selectedItem = formation;
   }
 
+  isSelectedItem = (formation : Formation) =>{
+    return this.selectedItem?.title == formation.title
+  }
+
 }
