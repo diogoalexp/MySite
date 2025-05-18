@@ -32,7 +32,8 @@ export class ExperienceSummaryComponent implements OnInit{
 
     this.experienceService.loadedExperiences().forEach((experience) =>{
       experience.projects.forEach((project) =>{
-        var diff = TimeDiff(project.start, project.end);
+        const end = new Date(project.end).getTime() == new Date("1111-01-01").getTime() ? new Date() : project.end
+        var diff = TimeDiff(project.start, end);
 
         if(project.skills.some((p) => this.backendSkills.includes(p) )){
           this.experienceBackend +=  diff
