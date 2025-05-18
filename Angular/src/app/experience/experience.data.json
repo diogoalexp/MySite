@@ -4,24 +4,35 @@
         "company": "Ezo Inc",
         "country": "Canada",
         "city": "Québec",
-        "description": "tbd.",
+        "description": "Consultor de Software especializado em soluções baseadas em Microsoft Azure e .NET, com forte atuação em arquitetura, desenvolvimento e modernização de aplicações empresariais. Experiência em ambientes cloud, pipelines de CI/CD com Azure DevOps e Gitlab, segurança, monitoramento e escalabilidade. Habilidade em entender as necessidades do cliente, propor soluções técnicas eficientes e orientar equipes no uso das melhores práticas de desenvolvimento e arquitetura em .NET e Azure.",
         "icon": "assets/icons/companies/ezo.png",
         "projects": [
             {
                 "name": "Inspection Project Management (Evident Scientific)",
                 "start": "2023-05-01",
                 "end": "1111-01-01",
-                "details": "tbd",
+                "details": "Responsável pela modernização de um sistema legado, migrando-o para as versões mais recentes de .NET e Angular. Automatizei completamente o processo de CI/CD, que anteriormente era manual e uma nova versão do sistema ocorria apenas a cada 6 meses. Com a nova arquitetura e pipeline automatizado, o projeto passou a realizar de 3 a 4 releases por sprint, incluindo mudanças em infraestrutura, banco de dados, APIs, aplicações web e mobile.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur Oracle",
-                    "Révision du code au SVN",
-                    "Développer l'interface au Razor"
+                    "Desenvolvedor .NET e C#",
+                    "Azure Functions",
+                    "Scripts no SQL Server",
+                    "Revisão de código no GIT",
+                    "Infrasctutura como código em Terraform",
+                    "Desenvolver a interface em Angular",
+                    "Serviços em Docker"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
-                    "Oracle"
+                    "SQLServer",
+                    "GIT",
+                    "Angular",
+                    "Terraform",
+                    "CI/CD",
+                    "SCRUM",
+                    "Gitlab",
+                    "Azure Devops",
+                    "Jira"
                 ]
             }
         ]
@@ -31,71 +42,68 @@
         "company": "CI&T",
         "country": "Brasil",
         "city": "Curitiba",
-        "description": "Software Architect, responsible for the applications development and processes upgrade.",
+        "description": "Atuação como Arquiteto de Software, sendo responsável pelo desenvolvimento de aplicações e pela modernização de processos internos. Envolvimento direto na definição de arquiteturas escaláveis, escolha de tecnologias, melhoria contínua de práticas de desenvolvimento e alinhamento técnico entre equipes.",
         "icon": "assets/icons/companies/ciandt.png",
         "projects": [
             {
                 "name": "Clinicians Gateway (Krassons Inc)",
-                "start": "2020-01-01",
-                "end": "2023-02-01",
-                "details": "Maintenance du système qui fait la gestion de toutes les informations des cliniques de santé mentale au California-US. Le système d'enregistrement des patients, des médecins, des infirmières, des soignants et conserve les dossiers médicaux du patient tels que les plans de traitement, les rendez-vous médicaux, les signes vitaux, les médicaments, les finances, etc. Responsable pour faire la migration du système aux nouvelles technologies. Le système était très ancien et Monsieur Pereira dirigeait l'initiative de actualisation technologique du système.",
+                "start": "2020-01-01, 00:00:00",
+                "end": "2023-05-31, 23:00:00",
+                "details": "Responsável pela manutenção e modernização do sistema que gerencia todas as informações de clínicas de saúde mental na Califórnia (EUA). O sistema abrange o registro e controle de pacientes, médicos, enfermeiros e cuidadores, além de armazenar dados clínicos como planos de tratamento, consultas, sinais vitais, medicações e informações financeiras. Atuei como líder na iniciativa de migração do sistema para novas tecnologias, substituindo uma arquitetura legada por soluções mais modernas e escaláveis.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur Oracle",
-                    "Migracion du système ASP.NET 2 au ASP.Core7",
-                    "Révision du code au GIT",
-                    "Deseigne la solution React pour la Migration",
-                    "Developer l'interface au React",
-                    "Créer les plans du migration avec Strangler Pattern"
+                    "Desenvolvedor .NET e C#",
+                    "Scripts no SQL Server",
+                    "Migração do sistema ASP.NET 2 para ASP.Core7",
+                    "Revisão de código no GIT",
+                    "Projetando a solução React para migração",
+                    "Desenvolver a interface em React",
+                    "Criando Planos de Migração com o Padrão Estrangulador"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
                     "SQLServer",
                     "GIT",
-                    "React"
+                    "React",
+                    "SCRUM"
                 ]
             },
             {
                 "name": "Portal do Veículo (Volvo Group)",
-                "start": "2019-07-01",
-                "end": "2020-01-01",
-                "details": "Maintenance du système qui fait l'intégration de tous les autres systèmes Volvo pour présenter aux vendeurs en concession une fiche détaillée des véhicules.",
+                "start": "2019-07-01, 00:00:00",
+                "end": "2020-01-01, 23:00:00",
+                "details": "Responsável pela manutenção do sistema integrador dos diversos sistemas da Volvo, que consolida e apresenta aos vendedores das concessionárias um arquivo detalhado com todas as informações do veículo, facilitando o processo de venda e atendimento ao cliente.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur Oracle",
-                    "Révision du code au GIT",
-                    "Rapportes de PowerBI",
-                    "Developer l'interface au Razor",
-                    "Alignement des tâches avec le client"
+                    "Desenvolvedor .NET e C#",
+                    "Scripts no SQL Server",
+                    "Revisão de código no GIT",
+                    "Desenvolver a interface em Razor"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
-                    "Oracle",
-                    "GIT",
-                    "Razor"
+                    "SQLServer",
+                    "TFS",
+                    "SCRUM"
                 ]
             },
             {
                 "name": "Goodwill (Volvo Group)",
-                "start": "2018-10-01",
-                "end": "2019-07-01",
-                "details": "Développer un nouveau système qui fait la gestion de toutes les informations des courtoisies pour les clients qui font des services avec le Groupe Volvo.",
+                "start": "2018-09-01, 00:00:00",
+                "end": "2019-07-01, 23:00:00",
+                "details": "Desenvolvimento de um novo sistema para gerenciamento completo das cortesias oferecidas a clientes que realizam serviços com o Grupo Volvo, centralizando informações e otimizando o controle e a concessão desses benefícios.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur Oracle",
-                    "Révision du code au GIT",
-                    "Rapportes de PowerBI",
-                    "Developer l'interface au Kendo UI",
-                    "Alignement des tâches avec le client"
+                    "Desenvolvedor .NET e C#",
+                    "Scripts no SQL Server",
+                    "Revisão de código no GIT",
+                    "Desenvolver a interface em Razor"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
-                    "Oracle",
-                    "GIT",
-                    "Kendo"
+                    "SQLServer",
+                    "TFS",
+                    "SCRUM"
                 ]
             }
         ]
@@ -105,69 +113,72 @@
         "company": "Grupo Positivo",
         "country": "Brasil",
         "city": "Curitiba",
-        "description": "Responsável pela arquitetura de novos projetos e acompanhamento dos respectivos times de desenvolvimento, atuando como SCRUM Master e desenvolvedor FullStack em diversos projetos. Responsável por elaborar o processo de desenvolvimento, metodologia aplicada, padrões e convenções de código, documentação e DevOps. Responsável pela avaliação técnica de candidatos a ingressar na empresa.",
+        "description": "Responsável pela definição da arquitetura de novos projetos e pelo acompanhamento dos respectivos times de desenvolvimento, atuando como SCRUM Master e desenvolvedor Full Stack em diversas iniciativas. Atuei na elaboração e implementação do processo de desenvolvimento, incluindo a escolha da metodologia, definição de padrões e convenções de código, práticas de documentação e estratégias de DevOps. Também fui responsável pela avaliação técnica de candidatos durante o processo seletivo da empresa.",
         "icon": "assets/icons/companies/positivo.png",
         "projects": [
             {
                 "name": "Formulários de Inscrição",
-                "start": "2018-04-01",
-                "end": "2018-10-01",
-                "details": "Développer un nouveau système qui fait l' inscription des candidats à l' université Positivo. Diriger une équipe technique et appliquer la méthodologie SCRUM.",
+                "start": "2018-04-01, 00:00:00",
+                "end": "2018-09-31, 23:00:00",
+                "details": "Desenvolvimento de um novo sistema de cadastro de candidatos para a Universidade Positivo, com foco em otimizar o processo de inscrição e gestão de dados. Atuação como líder técnico da equipe de desenvolvimento, aplicando a metodologia SCRUM para garantir entregas ágeis e alinhadas aos objetivos do projeto.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur Oracle",
-                    "Révision du code au TFS",
-                    "Développer l'interface au Angular JS",
-                    "Alignement des tâches avec le client",
-                    "Coordonner l’équipe technique",
-                    "Aider l'entreprise à adopter SCRUM"
+                    "Desenvolvedor .NET e C#",
+                    "Scripts no SQL Server",
+                    "Revisão de código no GIT",
+                    "Desenvolver a interface em Angular",
+                    "Coordenar a equipe técnica",
+                    "Realizar a coleta de requisitos"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
+                    "SQLServer",
                     "Angular",
-                    "GIT",
+                    "TFS",
                     "SCRUM"
                 ]
             },
             {
                 "name": "Gerenciamento de Recursos",
-                "start": "2017-12-01",
-                "end": "2018-04-01",
-                "details": "Développer un nouveau système qui fait la gestion de toutes les informations des classes pour l'université Positivo, la réservation des salles de classe, laboratoires, auditoriums etc. Diriger une équipe technique et appliquer la méthodologie SCRUM.Créer un moniteur d'échelle de temps (comme des aéroports).",
+                "start": "2017-12-01, 00:00:00",
+                "end": "2018-04-01, 23:00:00",
+                "details": "Desenvolvimento de um novo sistema para gerenciamento completo das informações de aulas da Universidade Positivo, incluindo a reserva de salas de aula, laboratórios, auditórios e demais espaços. Liderança de equipe técnica e aplicação da metodologia SCRUM durante todo o ciclo de desenvolvimento. Criação de um monitor de escala de tempo, similar aos painéis de aeroportos, para exibição dinâmica de horários e locais das aulas.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur Oracle",
-                    "Révision du code au TFS",
-                    "Développer l'interface au Angular JS",
-                    "Alignement des tâches avec le client",
-                    "Coordonner l’équipe technique",
-                    "Aider l'entreprise à adopter SCRUM"
+                    "Desenvolvedor .NET e C#",
+                    "Scripts no SQL Server",
+                    "Revisão de código no GIT",
+                    "Desenvolver a interface em Angular",
+                    "Coordenar a equipe técnica",
+                    "Realizar a coleta de requisitos"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
+                    "SQLServer",
                     "Angular",
-                    "GIT",
+                    "TFS",
                     "SCRUM"
                 ]
             },
             {
                 "name": "Jarvis DevOps",
-                "start": "2017-09-01",
-                "end": "2017-12-01",
-                "details": "Mis à jour le TFS 2010 au TFS 2018, configurer les Agents du Build et Agents du Release. Configurer le pipeline du deployment. Développer un nouveau système qui monitoré tous les systèmes du Groupe Positivo, et montre en temps réel les statuts du serveurs et releases.",
+                "start": "2017-09-01, 00:00:00",
+                "end": "2017-12-01, 23:00:00",
+                "details": "Responsável pela atualização do TFS 2010 para o TFS 2018, incluindo a configuração de agentes de compilação e de liberação, além da estruturação do pipeline de implantação. Também desenvolvi um sistema de monitoramento em tempo real para todos os sistemas do Grupo Positivo, exibindo o status e as versões dos servidores de forma centralizada.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur Oracle",
-                    "Révision du code au GIT",
-                    "Développer l'interface au Angular JS"
+                    "Desenvolvedor .NET e C#",
+                    "Scripts no SQL Server",
+                    "Revisão de código no GIT",
+                    "Desenvolver a interface em Angular",
+                    "Coordenar a equipe técnica",
+                    "Realizar a coleta de requisitos"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
+                    "SQLServer",
                     "Angular",
-                    "GIT",
+                    "TFS",
                     "SCRUM"
                 ]
             }
@@ -178,93 +189,113 @@
         "company": "ExxonMobil Corporation",
         "country": "Brasil",
         "city": "Curitiba",
-        "description": "Atuando como desenvolvedor FullStack e como SCRUM Master nos setores de Operation Excellence e Projetos. Responsável por automatizar diversos serviços, levantar requisitos, liderança técnica e desenvolver sistemas web.",
+        "description": "Atuação como desenvolvedor Full Stack e SCRUM Master nos setores de Operational Excellence e Projetos, com responsabilidades em automatização de processos, levantamento de requisitos, liderança técnica e desenvolvimento de sistemas web.",
         "icon": "assets/icons/companies/exxon.png",
         "projects": [
             {
                 "name": "AppTrack",
-                "start": "2016-12-01",
-                "end": "2017-09-01",
-                "details": "Développer un nouveau système qui fait la gestion de toutes les informations sur les applications qui sont disponibles à l'organisation. Management du license et sollicitation d'utilisation.Réaliser la collecte des exigences lors d'un atelier face à face tenu à Dallas, aux États-Unis",
+                "start": "2015-11-01, 00:00:00",
+                "end": "2017-09-31, 23:00:00",
+                "details": "Desenvolvimento de um novo sistema para gerenciar todas as informações sobre aplicativos disponíveis para a organização, incluindo o controle de licenças e o processo de solicitação de uso. Condução de um workshop presencial em Dallas, EUA, para coleta de requisitos e alinhamento das necessidades do projeto.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur SQL Server",
-                    "Révision du code au TFS",
-                    "Developer l'interface au Angular JS",
-                    "Coordonner l'équipe technique",
-                    "Réaliser la collecte des exigences"
+                    "Desenvolvedor .NET e C#",
+                    "Scripts no SQL Server",
+                    "Revisão de código no TFS",
+                    "Desenvolver a interface em Angular",
+                    "Coordenar a equipe técnica",
+                    "Realizar a coleta de requisitos"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
                     "SQLServer",
-                    "Angular"
+                    "Angular",
+                    "TFS",
+                    "SCRUM"
                 ]
             },
             {
                 "name": "vAppConnect",
-                "start": "2015-01-01",
-                "end": "2016-12-01",
-                "details": "Développer un nouveau système qui fait la gestion de toutes les informations d'utilisation et sollicitation d'utilisation des application disponible virtuellement dans la plateforme AppConnect du machines virtuelles, Diriger une équipe technique et appliquer la méthodologie SCRUM.",
+                "start": "2015-02-01, 00:00:00",
+                "end": "2015-11-01, 23:00:00",
+                "details": "Desenvolvimento de um novo sistema para gerenciar o uso e as solicitações de aplicativos disponíveis na plataforma virtual AppConnect, focada em máquinas virtuais. Liderança de equipe técnica, aplicando a metodologia SCRUM para garantir a entrega eficiente e alinhada às necessidades do projeto.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur SQL Server",
-                    "Révision du code au TFS",
-                    "Developer l'interface au Angular JS"
+                    "Desenvolvedor .NET e C#",
+                    "Scripts no SQL Server",
+                    "Revisão de código no TFS",
+                    "Desenvolver a interface em Angular",
+                    "Coordenar a equipe técnica"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
                     "SQLServer",
-                    "Angular"
+                    "Angular",
+                    "TFS",
+                    "SCRUM"
                 ]
             },
             {
                 "name": "Test and Remediation Tool",
-                "start": "2014-09-01",
-                "end": "2015-01-01",
-                "details": "Maintenance du système utilisé pour le Helpdesk, le système identifie une collaborateur au téléphone et donne toutes les informations nécessaires pour aider l’analyste pendant le service.",
+                "start": "2014-09-01, 00:00:00",
+                "end": "2015-02-01, 23:00:00",
+                "details": "Responsável pela manutenção do sistema utilizado pela equipe de projetos para controlar os testes e a remediação de todas as ferramentas utilizadas pela empresa, garantindo a integridade e o bom funcionamento dos recursos tecnológicos.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur SQL Server",
-                    "Révision du code au TFS"
+                    "Desenvolvedor .NET e C#",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
+                    "Interface Web em Angular"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
-                    "SQLServer"
+                    "SQLServer",
+                    "Angular",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "TFS",
+                    "SCRUM"
                 ]
             },
             {
                 "name": "Customer Identification Tool",
-                "start": "2014-06-01",
-                "end": "2014-09-01",
-                "details": "Maintenance du système utilisé pour le Helpdesk, le système identifie une collaborateur au téléphone et donne toutes les informations nécessaires pour aider l’analyste pendant le service.",
+                "start": "2014-03-01, 00:00:00",
+                "end": "2014-09-01, 23:00:00",
+                "details": "Responsável pela manutenção do sistema utilizado pelo Helpdesk, que identifica automaticamente o colaborador durante o atendimento telefônico e fornece todas as informações necessárias para apoiar o analista na resolução das solicitações.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur SQL Server",
-                    "Révision du code au TFS"
+                    "Desenvolvedor .NET e C#",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
+                    "Interface Windows App em WPF"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
-                    "SQLServer"
+                    "SQLServer",
+                    "Git",
+                    "TFS",
+                    "SCRUM"
                 ]
             },
             {
                 "name": "CheckMyPC",
-                "start": "2013-10-01",
-                "end": "2014-06-01",
-                "details": "Développer un nouveau système  qui résout les problèmes de basique de la machine  tels que le mappage des pilotes et les connexions réseau.",
+                "start": "2013-10-01, 00:00:00",
+                "end": "2014-03-01, 23:00:00",
+                "details": "Desenvolvimento de um novo sistema destinado a solucionar problemas básicos das máquinas, como mapeamento de drivers e gerenciamento de conexões de rede, visando otimizar o desempenho e a confiabilidade do ambiente.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur SQL Server",
-                    "Révision du code au TFS"
+                    "Desenvolvedor .NET e C#",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
+                    "Interface Windows App em WPF"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
-                    "SQLServer"
+                    "SQLServer",
+                    "Git",
+                    "TFS",
+                    "SCRUM"
                 ]
             }
         ]
@@ -274,41 +305,49 @@
         "company": "MPS Informática",
         "country": "Brasil",
         "city": "Curitiba",
-        "description": "Desenvolvimento e manutenção de softwares relacionados aos tribunais de justiça de diversos estados brasileiros. Software de grande porte sujeito a processo minucioso de auditória em banco de dados.",
+        "description": "Atuação no desenvolvimento e manutenção de sistemas de grande porte voltados aos Tribunais de Justiça de diversos estados brasileiros. Os softwares são submetidos a rigorosos processos de auditoria, com foco especial na integridade e conformidade dos dados armazenados em banco de dados.",
         "icon": "assets/icons/companies/mps.png",
         "projects": [
             {
                 "name": "Certidão Comprobatória",
-                "start": "2012-12-01",
-                "end": "2012-10-01",
-                "details": "Maintenance du système de délivrance des certificats justificatifs de la Cour de justice de Rio de Janeiro",
+                "start": "2012-11-01, 00:00:00",
+                "end": "2013-10-31, 23:00:00",
+                "details": "Responsável pela manutenção do sistema de emissão de certidões comprobatórias do Tribunal de Justiça do Estado do Rio de Janeiro, garantindo a continuidade, estabilidade e conformidade do serviço.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur Oracle",
-                    "Révision du code au SVN",
-                    "Développer l'interface au Razor"
+                    "Desenvolvedor .NET e C#",
+                    "Banco de dados Oracle",
+                    "Revisão de código em SVN",
+                    "Interface Web em ASP"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
-                    "Oracle"
+                    "Oracle",
+                    "SVN",
+                    "HTML",
+                    "CSS",
+                    "Javascript"
                 ]
             },
             {
                 "name": "Apolo",
-                "start": "2011-11-01",
-                "end": "2012-11-01",
-                "details": "Maintenance du système de gestion des affaires pour les tribunaux de plusieurs États, intégré à divers services tels que les certificats et les mandats.",
+                "start": "2011-10-01, 00:00:00",
+                "end": "2012-11-01, 23:00:00",
+                "details": "Responsável pela manutenção do sistema de gerenciamento de casos utilizado por tribunais de múltiplos estados, integrado a diversos serviços complementares, como emissão de certidões e controle de mandados.",
                 "achievements": [
-                    "Developer .NET et C#",
-                    "Scripts sur Oracle",
-                    "Révision du code au SVN",
-                    "Développer l'interface au Razor"
+                    "Desenvolvedor .NET e C#",
+                    "Banco de dados Oracle",
+                    "Revisão de código em SVN",
+                    "Interface Web em ASP"
                 ],
                 "skills": [
                     ".NET",
                     "C#",
-                    "Oracle"
+                    "Oracle",
+                    "SVN",
+                    "HTML",
+                    "CSS",
+                    "Javascript"
                 ]
             }
         ]
