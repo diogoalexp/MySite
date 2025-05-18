@@ -5,6 +5,8 @@
             <app-formation-card [formation]="item" (click)="onSelectFormation(item)" [isSelected]="isSelectedItem(item)"/>
         }
     </aside>
-    <app-formation-article [formation]="selectedItem" class="article "/>
+    <div class="article">
+        <app-formation-article [formation]="selectedItem" />
+    </div>
 </div>
 </div>
