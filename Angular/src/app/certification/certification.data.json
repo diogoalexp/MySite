@@ -2,19 +2,190 @@
     {
         "title": "Angular - The Complete Guide",
         "organization": "Udemy",
-        "date": "Apr 2025",
+        "date": "2025/04",
         "credential": "UC-2381f984-c397-4ef8-9664-b2c18357677a",
         "url": "https://www.udemy.com/certificate/UC-2381f984-c397-4ef8-9664-b2c18357677a",
-        "icon": "assets/icons/udemy.png",
-        "file": "assets/certifications/UC-2381f984-c397-4ef8-9664-b2c18357677a.pdf"
+        "icon": "assets/icons/certifications/udemy.png",
+        "file": "assets/certifications/2025.04 Udemy - Angular - The Complete Guide.pdf"
     },
     {
-        "title": "Angular - The Complete Guide;",
-        "organization": "Udemy;",
-        "date": "Apr 2025;",
-        "credential": "UC-2381f984-c397-4ef8-9664-b2c18357677a;",
-        "url": "https://www.udemy.com/certificate/UC-2381f984-c397-4ef8-9664-b2c18357677a/;",
-        "icon": "assets/images/items/influx.png",
-        "file": "assets/files/sample.pdf"
+        "title": "Test d'évaluation du français (TEFAQ)",
+        "organization": "BLI - Bouchereau Lingua International",
+        "date": "2024/06",
+        "credential": "B2",
+        "url": "",
+        "icon": "assets/icons/certifications/BLI.png",
+        "file": "assets/certifications/2024.06 BLI - TEFAQ.pdf"
+    },
+    {
+        "title": "Docker for the Absolute Beginner",
+        "organization": "Udemy",
+        "date": "2023/06",
+        "credential": "UC-efb1e047-f883-4dc2-87a6-f294da78498b",
+        "url": "https://www.udemy.com/certificate/UC-efb1e047-f883-4dc2-87a6-f294da78498b/",
+        "icon": "assets/icons/certifications/udemy.png",
+        "file": "assets/certifications/2023.06 Udemy - Docker - Hands On - DevOps.pdf"
+    },
+    {
+        "title": "Azure Serverless Functions and Logic Apps",
+        "organization": "Udemy",
+        "date": "2023/06",
+        "credential": "UC-770e6b73-d541-43bf-b0e7-ba2df2d89d57",
+        "url": "https://www.udemy.com/certificate/UC-770e6b73-d541-43bf-b0e7-ba2df2d89d57/",
+        "icon": "assets/icons/certifications/udemy.png",
+        "file": "assets/certifications/2023.06 Udemy - Azure Serverless Functions and Logic Apps.pdf"
+    },
+    {
+        "title": "Azure DevOps Fundamentals",
+        "organization": "Udemy",
+        "date": "2023/06",
+        "credential": "UC-427a9b82-2e88-43eb-9505-562e2b4adabb",
+        "url": "https://www.udemy.com/certificate/UC-427a9b82-2e88-43eb-9505-562e2b4adabb/",
+        "icon": "assets/icons/certifications/udemy.png",
+        "file": "assets/certifications/2023.06 Udemy - Azure DevOps Fundamentals.pdf"
+    },
+    {
+        "title": "Azure DevOps - Repos",
+        "organization": "Udemy",
+        "date": "2023/06",
+        "credential": "UC-36a564f1-1f92-4690-8eec-573cd83cfbb9",
+        "url": "https://www.udemy.com/certificate/UC-36a564f1-1f92-4690-8eec-573cd83cfbb9/",
+        "icon": "assets/icons/certifications/udemy.png",
+        "file": "assets/certifications/2023.06 Udemy - Azure DevOps - Repos.pdf"
+    },
+    {
+        "title": "Cours de Langue Française",
+        "organization": "FLE",
+        "date": "2022/12",
+        "credential": "",
+        "url": "",
+        "icon": "assets/icons/certifications/ufpr.png",
+        "file": "assets/certifications/2022.12 FLE - Français.pdf"
+    },
+    {
+        "title": "DevCamp Live 2020",
+        "organization": "Dextra",
+        "date": "2020/09",
+        "credential": "CNPJ 04.358.494/0001-13",
+        "url": "",
+        "icon": "assets/icons/certifications/dextra.png",
+        "file": "assets/certifications/2020.09 Dextra - DevCamp Live 2020.pdf"
+    },
+    {
+        "title": "Treinamento de Escuta Ativa",
+        "organization": "Dextra",
+        "date": "2020/07",
+        "credential": "CNPJ 04.358.494/0001-13",
+        "url": "",
+        "icon": "assets/icons/certifications/dextra.png",
+        "file": "assets/certifications/2020.07 Dextra - Treinamento de Escuta Ativa.pdf"
+    },
+    {
+        "title": "Treinamento de Feedback",
+        "organization": "Dextra",
+        "date": "2020/07",
+        "credential": "CNPJ 04.358.494/0001-13",
+        "url": "",
+        "icon": "assets/icons/certifications/dextra.png",
+        "file": "assets/certifications/2020.07 Dextra - Treinamento de Feedback.pdf"
+    },
+    {
+        "title": "React Native - The Practical Guide",
+        "organization": "Udemy",
+        "date": "2020/04",
+        "credential": "UC-fb3ef009-47a0-4e9c-a2c3-f36c1288dae7",
+        "url": "https://www.udemy.com/certificate/UC-fb3ef009-47a0-4e9c-a2c3-f36c1288dae7/",
+        "icon": "assets/icons/certifications/udemy.png",
+        "file": "assets/certifications/2020.04 Udemy - React Native - The Practical Guide.pdf"
+    },
+        {
+        "title": "Celin curso de Francês",
+        "organization": "Celin",
+        "date": "2019/12",
+        "credential": "",
+        "url": "",
+        "icon": "assets/icons/certifications/celin.png",
+        "file": "assets/certifications/2019.12 Celin - Francês.pdf"
+    },
+    {
+        "title": "Rest Api's in Asp.Net Core and C#",
+        "organization": "Udemy",
+        "date": "2019/11",
+        "credential": "UC-T023VIN3",
+        "url": "https://www.udemy.com/certificate/UC-T023VIN3/",
+        "icon": "assets/icons/certifications/udemy.png",
+        "file": "assets/certifications/2019.11 Udemy - Rest Apis in Asp.Net Core and Csharp.pdf"
+    },
+    {
+        "title": "Certified ScrumMaster®",
+        "organization": "Udemy",
+        "date": "2019/11",
+        "credential": "001018029",
+        "url": "https://www.scrumalliance.org/community/profile/dpereira26",
+        "icon": "assets/icons/certifications/scrum.png",
+        "file": "assets/certifications/2019.11 ScrumAlliance - Certified ScrumMaster.pdf"
+    },
+    {
+        "title": "CINQ Tech Bootcamp - Flutter na prática",
+        "organization": "CINQ",
+        "date": "2019/10",
+        "credential": "04.358.494/0001-31",
+        "url": "",
+        "icon": "assets/icons/certifications/cinq.png",
+        "file": "assets/certifications/2019.10 CINQ Tech Bootcamp - Flutter na prática.pdf"
+    },
+    {
+        "title": "React - The Complete Guide",
+        "organization": "Udemy",
+        "date": "2019/09",
+        "credential": "UC-0GRY1Z12",
+        "url": "https://www.udemy.com/certificate/UC-0GRY1Z12/",
+        "icon": "assets/icons/certifications/udemy.png",
+        "file": "assets/certifications/2019.07 React - The Complete Guide (incl. Hooks, React Router, Redux).pdf"
+    },
+    {
+        "title": "Microsoft Power BI - A Complete Introduction",
+        "organization": "Udemy",
+        "date": "2019/06",
+        "credential": "UC-BO62RN7S",
+        "url": "http://ude.my/UC-BO62RN7S",
+        "icon": "assets/icons/certifications/udemy.png",
+        "file": "assets/certifications/2019.06 Microsoft Power BI - The Practical Guide.pdf"
+    },
+    {
+        "title": "Scrum Foundation Professional Certificate (SFPC)",
+        "organization": "CertiProf",
+        "date": "2019/01",
+        "credential": "",
+        "url": "",
+        "icon": "assets/icons/certifications/certiprof.png",
+        "file": "assets/certifications/2019.01 CertiProf - SCRUM Foundation Professional Certificate.pdf"
+    },
+    {
+        "title": "DevOps Essentials Professional Cetificate (DEPC)",
+        "organization": "CertiProf",
+        "date": "2019/01",
+        "credential": "",
+        "url": "",
+        "icon": "assets/icons/certifications/certiprof.png",
+        "file": "assets/certifications/2019.01 CertiProf - DevOps Essential Professional Certificate.pdf"
+    },
+    {
+        "title": "Agile Curitiba Conference",
+        "organization": "AgileCuritiba",
+        "date": "2018/11",
+        "credential": "",
+        "url": "https://www.sympla.com.br/baixar-certificado/9Y84v98ybeWRiD8aFHkyhnjLfGLXT3ZwP-bvJusTLaI",
+        "icon": "assets/icons/certifications/agile-curitiba.png",
+        "file": "assets/certifications/2018.02 AgileCuritiba - Conference.pdf"
+    },
+    {
+        "title": "Influx English Course",
+        "organization": "Influx",
+        "date": "2012/12",
+        "credential": "",
+        "url": "",
+        "icon": "assets/icons/certifications/influx.png",
+        "file": "assets/certifications/2012.12 Influx - English Course.txt"
     }
 ]

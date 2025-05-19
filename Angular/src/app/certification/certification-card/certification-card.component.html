@@ -2,6 +2,10 @@
     <img class="card-icon" [src]="certification().icon" alt="icon" />
     <div class="card-content">
       <h3 class="card-title">{{ certification().title }}</h3>
-      <p class="card-place">{{ certification().organization }} - {{ certification().date }}</p>
+      <p class="card-place">{{ certification().organization }}</p>
+      <p class="card-place">{{ certification().date  | date:"MMM, y" }}</p>
+      @if(certification().url){
+        <img src="assets/icons/link.png" alt="Article image" class="card-icon-link" (click)="onClickExternalLink()" />
+      }
     </div>
   </div>
