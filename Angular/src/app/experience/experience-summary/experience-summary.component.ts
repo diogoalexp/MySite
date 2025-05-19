@@ -17,10 +17,10 @@ export class ExperienceSummaryComponent implements OnInit{
   experienceFrontend: number = 0;
   experienceWeb: number = 0;
 
-  backendSkills = ["ASP.NET", "C#", "Java"];
-  frontendSkills = ["React", "Angular"];
+  backendSkills = ["ASP.NET", "C#", "Java", "Node"];
+  frontendSkills = ["React", "Angular", "Vue"];
   webSkills = ["HTML", "CSS, JavaScript"];
-  devopsSkills = ["Terraforms", "DevOps"];
+  devopsSkills = ["Terraform", "DevOps", "Docker"];
   softSkills = ["SCRUM", "Agile"];
 
   skills:{name: string, count: number}[] = [];
