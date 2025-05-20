@@ -2,7 +2,7 @@ import { Component, input, OnInit } from '@angular/core';
 import { Experience, Project } from '../experience.model';
 import { ExperienceProjectComponent } from './experience-project/experience-project.component';
 import { DatePipe } from '@angular/common';
-import { ConvertToPeriod, PeriodDisplay, TimeDiff } from '../../shared/date.util';
+import { ConvertToPeriod, TimeDiff } from '../../shared/date.util';
 import { PeriodPipe } from '../period.pipe';
 
 @Component({

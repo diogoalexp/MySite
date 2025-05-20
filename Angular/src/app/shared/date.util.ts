@@ -31,32 +31,5 @@ function ConvertToPeriod(timestamp: number) {
   };
 }
 
-    //TODO: Create pipe
-function PeriodDisplay(period: {
-    year: number,
-    month: number,
-    day: number,
-    hour: number,
-    minute: number,
-    second: number,
-  }) {
-    var result = '';
-    if(period.year > 1)
-      result = period.year + ' anos'
-    else if(period.year == 1)
-      result = period.year + ' ano'
 
-    if(period.year > 0 && period.month > 0)
-      result +=  ' e ';
-
-    if(period.month > 1)
-      result += period.month + ' meses'
-    else if(period.month == 1)
-      result += period.month + ' mês'
-
-    return result;
-  }
-
-
-
-export { TimeDiff, ConvertToPeriod, PeriodDisplay };
+export { TimeDiff, ConvertToPeriod };

@@ -1,6 +1,6 @@
 import { Component, input } from '@angular/core';
 import { Project } from '../../experience.model';
-import { TimeDiff, ConvertToPeriod, PeriodDisplay } from '../../../shared/date.util';
+import { TimeDiff, ConvertToPeriod } from '../../../shared/date.util';
 import { PeriodPipe } from "../../period.pipe";
 
 @Component({
@@ -20,6 +20,4 @@ export class ExperienceProjectComponent {
       var diff = TimeDiff(this.project().start, end);
       return ConvertToPeriod(diff);
     }
-
-
 }
