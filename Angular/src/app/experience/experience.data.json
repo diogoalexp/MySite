@@ -26,13 +26,13 @@
                     ".NET",
                     "C#",
                     "SQLServer",
-                    "GIT",
+                    "Git",
                     "Angular",
                     "Terraform",
                     "CI/CD",
                     "SCRUM",
                     "Gitlab",
-                    "Azure Devops",
+                    "Azure DevOps",
                     "Jira"
                 ]
             }
@@ -95,7 +95,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
-                    "TFS",
+                    "Azure DevOps",
                     "SCRUM",
                     "Jira"
                 ]
@@ -121,7 +121,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
-                    "TFS",
+                    "Azure DevOps",
                     "SCRUM",
                     "Jira"
                 ]
@@ -216,6 +216,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
+                    "Azure DevOps",
                     "TFS",
                     "SCRUM"
                 ]
@@ -238,7 +239,7 @@
                 "achievements": [
                     "Desenvolvedor .NET e C#",
                     "Banco de dados SQLServer",
-                    "Revisão de código no TFS",
+                    "Revisão de código no Azure DevOps",
                     "Desenvolver a interface em Angular",
                     "Coordenar a equipe técnica",
                     "Realizar a coleta de requisitos (Dallas - USA)",
@@ -254,7 +255,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
-                    "TFS",
+                    "Azure DevOps",
                     "SCRUM"
                 ]
             },
@@ -266,7 +267,7 @@
                 "achievements": [
                     "Desenvolvedor .NET e C#",
                     "Banco de dados SQLServer",
-                    "Revisão de código no TFS",
+                    "Revisão de código no Azure DevOps",
                     "Desenvolver a interface em Angular",
                     "Coordenar a equipe técnica",
                     "Projeto conduzido em inglês"
@@ -281,7 +282,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
-                    "TFS",
+                    "Azure DevOps",
                     "SCRUM"
                 ]
             },
@@ -293,7 +294,7 @@
                 "achievements": [
                     "Desenvolvedor .NET e C#",
                     "Banco de dados SQLServer",
-                    "Revisão de código no TFS",
+                    "Revisão de código no Azure DevOps",
                     "Interface Web em Angular",
                     "Projeto conduzido em inglês"
                 ],
@@ -307,7 +308,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
-                    "TFS",
+                    "Azure DevOps",
                     "SCRUM"
                 ]
             },
@@ -319,7 +320,7 @@
                 "achievements": [
                     "Desenvolvedor .NET e C#",
                     "Banco de dados SQLServer",
-                    "Revisão de código no TFS",
+                    "Revisão de código no Azure DevOps",
                     "Interface Windows App em WPF",
                     "Projeto conduzido em inglês e português"
                 ],
@@ -328,7 +329,7 @@
                     "C#",
                     "SQLServer",
                     "Git",
-                    "TFS",
+                    "Azure DevOps",
                     "SCRUM"
                 ]
             },
@@ -340,7 +341,7 @@
                 "achievements": [
                     "Desenvolvedor .NET e C#",
                     "Banco de dados SQLServer",
-                    "Revisão de código no TFS",
+                    "Revisão de código no Azure DevOps",
                     "Interface Windows App em WPF",
                     "Projeto conduzido em inglês e português"
                 ],
@@ -350,7 +351,7 @@
                     "SQLServer",
                     "Git",
                     "CI/CD",
-                    "TFS",
+                    "Azure DevOps",
                     "SCRUM"
                 ]
             }
