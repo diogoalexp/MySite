@@ -10,7 +10,7 @@
             {
                 "name": "Inspection Project Management (Evident Scientific)",
                 "start": "2023-05-01",
-                "end": "1111-01-01",
+                "end": null,
                 "details": "Responsável pela modernização de um sistema legado que realiza análise de dados de Ensaios Não Destrutivos (NDT), migrando-o para as versões mais recentes de .NET e Angular. Automatizei completamente o processo de CI/CD, que anteriormente era manual e uma nova versão do sistema ocorria apenas a cada 6 meses. Com a nova arquitetura e pipeline automatizado, o projeto passou a realizar de 3 a 4 releases por sprint, incluindo mudanças em infraestrutura, banco de dados, APIs, aplicações web e mobile.",
                 "achievements": [
                     "Desenvolvedor .NET e C#",

@@ -14,6 +14,7 @@ export class ExperienceCardComponent implements OnInit {
   experience = input.required<Experience>();
   firstDate: Date | null = null;
   lastDate: Date | null = null;
+  currentWork: Boolean = false;
   displayTime: string = '';
 
   ngOnInit(): void {
@@ -23,7 +24,9 @@ export class ExperienceCardComponent implements OnInit {
   //TODO: Create pipe
   calculateExperienceTime() {
     this.experience().projects.forEach((project) => {
-      const end = new Date(project.end).getTime() == new Date("1111-01-01").getTime() ? new Date() : project.end
+      console.log('project.end', project.end)
+      this.currentWork = project.end == null;
+      const end = this.currentWork ? new Date() : project.end
 
       if (!this.firstDate || this.firstDate.getTime() > new Date(project.start).getTime())
         this.firstDate = new Date(project.start);

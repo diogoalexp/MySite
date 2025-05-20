@@ -13,7 +13,8 @@ export class ExperienceProjectComponent {
 
 
     displayTime(){
-      const end = new Date(this.project().end).getTime() == new Date("1111-01-01").getTime() ? new Date() : this.project().end
+      const currentWork = this.project().end == null;
+      const end = currentWork ? new Date() : this.project().end
 
       var diff = TimeDiff(this.project().start, end);
       var period = ConvertToPeriod(diff);

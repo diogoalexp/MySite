@@ -6,7 +6,7 @@
       <div class="company-card-description">
           <div class="job-title">{{experience().title}}</div>
           <div class="company">{{experience().company}}</div>
-          <div class="date">{{this.firstDate | date:"MMM, y"}} – {{this.lastDate == null ? "" : (this.lastDate | date:"MMM, y")}} • {{displayTime}}</div>
+          <div class="date">{{this.firstDate | date:"MMM, y"}} – {{this.currentWork ? " Atualmente" : (this.lastDate | date:"MMM, y")}} • {{displayTime}}</div>
           <div class="place">{{experience().city}}, {{experience().country}}</div>
       </div>
     </div>
