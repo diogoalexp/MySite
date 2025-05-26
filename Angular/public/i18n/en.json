@@ -1,0 +1,6 @@
+{
+  "profile": {
+    "title": "hello {{value}}",
+    "description": "Translation Demo"
+  }
+}

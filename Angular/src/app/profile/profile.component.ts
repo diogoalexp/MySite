@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import {TranslatePipe, TranslateDirective} from "@ngx-translate/core";
+
 
 @Component({
   selector: 'app-profile',
-  imports: [],
+  imports: [TranslatePipe, TranslateDirective],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.css'
 })
