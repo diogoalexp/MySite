@@ -1,4 +1,9 @@
 {
+  "header": {
+    "pt": "Portuguese",
+    "en": "English",
+    "fr": "French"
+  },
   "profile": {
     "title": "hello {{value}}",
     "description": "Translation Demo"

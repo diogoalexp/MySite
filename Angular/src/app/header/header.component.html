@@ -7,6 +7,13 @@
         <li><a routerLink="./experience" class="{{currentRouteStyle('/experience')}}" >Experiência</a></li>
         <li><a routerLink="./certification" class="{{currentRouteStyle('/certification')}}" >Certificados</a></li>
         <!-- <li><a routerLink="./" class="{{currentRouteStyle('/')}}" >Portfólio</a></li> -->
+         <li>
+         <select id="language-select" [(value)]="selectedLanguage" (change)="changeLanguage($event)">
+            <option value="pt-br">{{ 'header.pt' | translate }}</option>
+            <option value="en">{{ 'header.en' | translate }}</option>
+            <option value="fr">{{ 'header.fr' | translate }}</option>
+          </select>
+         </li>
       </ul>
     </nav>
   </header>

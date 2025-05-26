@@ -38,6 +38,21 @@
     color: #e4a33c;
   }
 
+    select {
+      padding: 0.1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      width: 100%;
+      cursor: pointer;
+      transition: border-color 0.3s;
+    }
+
+    select:focus {
+      color: #f39c12;
+      outline: none;
+    }
+
   @media (max-width: 768px) {
     .nav-links {
       flex-direction: column;
