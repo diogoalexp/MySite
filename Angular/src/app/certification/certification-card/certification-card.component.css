@@ -58,3 +58,8 @@
     border-color: #999;
     cursor: pointer;
   }
+
+  .card-selected {
+    border-color: #333;
+    border-radius: 1px;
+  }

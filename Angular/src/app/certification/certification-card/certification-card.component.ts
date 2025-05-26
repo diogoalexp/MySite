@@ -10,8 +10,13 @@ import { DatePipe } from '@angular/common';
 })
 export class CertificationCardComponent {
   certification = input.required<Certification>();
+  isSelected = input.required<Boolean>();
 
   onClickExternalLink = () =>{
     window.open(this.certification().url , '_blank');
+  }
+
+  cardStyle = () =>{
+    return this.isSelected() ? "card-selected" : ""
   }
 }

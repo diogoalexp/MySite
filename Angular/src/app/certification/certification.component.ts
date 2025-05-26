@@ -19,10 +19,15 @@ export class CertificationComponent {
     this.certificationService.loadCertifications();
 
     this.items.set(this.certificationService.loadedCertifications());
+
+    this.selectedItem  = this.items()[0]
   }
 
   onSelectCertification(certification : Certification){
     this.selectedItem = certification;
   }
 
+    isSelectedItem = (certification : Certification) =>{
+      return this.selectedItem?.title == certification.title
+    }
 }

@@ -7,5 +7,12 @@
   "profile": {
     "title": "Cientista da Computação & SCRUM Master",
     "description": "Sou um cientista da computação com especialidade em engenharia de software, entusiasta das metodologias agéis e tornei essas vertentes a minha profissão, minha paixão e parte do meu dia a dia."
+  },
+  "experience":{
+    "backend": "anos em Backend",
+    "web": "em desenvolvimento Web",
+    "frontend": "anos em frameworks de Frontend",
+    "experise": "Especializado em",
+    "confortable": "Confortável com"
   }
 }
