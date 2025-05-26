@@ -5,7 +5,14 @@
     "fr": "French"
   },
   "profile": {
-    "title": "hello {{value}}",
-    "description": "Translation Demo"
+    "title": "Computer Scientist & SCRUM Master",
+    "description": "I am a computer scientist specialized in software engineering, an enthusiast of agile methodologies, and I have turned these areas into my profession, my passion, and part of my daily life."
+  },
+  "experience": {
+    "backend": "years in Backend",
+    "web": "in Web development",
+    "frontend": "years in Frontend frameworks",
+    "expertise": "Specialized in",
+    "confortable": "Comfortable with"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "header": {
+    "pt": "Portugais",
+    "en": "Anglais",
+    "fr": "Français"
+  },
+  "profile": {
+    "title": "Informaticien & SCRUM Master",
+    "description": "Je suis un informaticien spécialisé en ingénierie logicielle, passionné par les méthodologies agiles. J'ai fait de ces domaines ma profession, ma passion et une partie de mon quotidien."
+  },
+  "experience": {
+    "backend": "années en Backend",
+    "web": "en développement Web",
+    "frontend": "années en frameworks Frontend",
+    "expertise": "Spécialisé en",
+    "confortable": "À l'aise avec"
+  }
+}

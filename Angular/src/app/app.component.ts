@@ -13,7 +13,7 @@ export class AppComponent {
   title = 'Angular';
 
   constructor(private translate: TranslateService) {
-      this.translate.addLangs(['pt-br', 'en']);
+      this.translate.addLangs(['pt-br', 'en', 'fr']);
       this.translate.setDefaultLang('pt-br');
       this.translate.use('pt-br');
   }

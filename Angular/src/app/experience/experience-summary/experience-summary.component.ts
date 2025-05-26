@@ -2,10 +2,11 @@ import { Component, inject, input, OnInit } from '@angular/core';
 import { Experience } from '../experience.model';
 import { ExperienceService } from '../experience.service';
 import { ConvertToPeriod, TimeDiff } from '../../shared/date.util';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-experience-summary',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './experience-summary.component.html',
   styleUrl: './experience-summary.component.css'
 })
