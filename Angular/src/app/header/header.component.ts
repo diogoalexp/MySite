@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 
@@ -9,12 +9,16 @@ import { TranslatePipe, TranslateService } from '@ngx-translate/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  selectedLanguage = signal<string>('pt-br');
+  selectedLanguage = signal<string>('');
 
-  constructor(private router: Router, private translate: TranslateService ) {
-    const getBrowserLang = this.translate.getBrowserLang() ?  this.translate.getBrowserLang() : 'pt-br';
-    this.selectedLanguage.set(this.translate.currentLang ? this.translate.currentLang : getBrowserLang!);
+  constructor(private router: Router, private translate: TranslateService) {
 
+  }
+
+  ngAfterViewInit() {
+    const savedLang = window.localStorage.getItem('lang');
+    this.translate.use(savedLang ? savedLang : 'pt-br');
+    this.selectedLanguage.set(savedLang ? savedLang : 'pt-br');
   }
 
   currentRouteStyle = (url: string) => {
@@ -26,6 +30,8 @@ export class HeaderComponent {
   changeLanguage = (test: any) => {
     const value = (test.target as HTMLSelectElement).value;
     this.translate.use(value);
+
+    window.localStorage.setItem('lang', value);
   }
 
 }
