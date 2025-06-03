@@ -19,22 +19,5 @@ export class FormationsService {
     var data = require(`./formation.data.${this.translate.currentLang}.json`);
 
     this.formations.set(data)
-    // return this.fetchPlaces(
-    //   "http://localhost:3000/places",
-    //   "Fail to fetch available places"
-    //   )
   }
-
-//   private fetchPlaces(url: string, errorMessage: string){
-//     return this.httpClient.get<{places: Formation[]}>(url, {
-//       observe: 'response'
-//     })
-//     .pipe(
-//       map((response) => response.body),
-//       catchError((error) => {
-//         console.log(error);
-//         return throwError(() => new Error(errorMessage));
-//       })
-//     )
-//   }
 }

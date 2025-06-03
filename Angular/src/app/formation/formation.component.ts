@@ -1,8 +1,10 @@
-import { Component, inject, input, OnInit, signal } from '@angular/core';
+import { Component, DestroyRef, inject, input, OnInit, signal } from '@angular/core';
 import { Formation } from './formation.model';
 import { FormationCardComponent } from "./formation-card/formation-card.component";
 import { FormationArticleComponent } from "./formation-article/formation-article.component";
 import { FormationsService } from './formation.service';
+import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-formation',
@@ -14,13 +16,20 @@ export class FormationComponent implements OnInit {
   private formationsService = inject(FormationsService);
   items = signal<Formation[]>([]);
   selectedItem?: Formation = this.items()[0];
+  private translate = inject(TranslateService);
+  private destroyRef = inject(DestroyRef);
+
 
   ngOnInit(): void {
-    this.formationsService.loadFormations();
+    this.loadData()
 
-    this.items.set(this.formationsService.loadedFormations());
+    const langChangeSubscription = this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.loadData()
+    });
 
-    this.selectedItem = this.items()[0];
+    this.destroyRef.onDestroy(() =>{
+      langChangeSubscription.unsubscribe();
+    })
   }
 
   onSelectFormation(formation : Formation){
@@ -29,6 +38,12 @@ export class FormationComponent implements OnInit {
 
   isSelectedItem = (formation : Formation) =>{
     return this.selectedItem?.title == formation.title
+  }
+
+  private loadData(){
+      this.formationsService.loadFormations();
+      this.items.set(this.formationsService.loadedFormations());
+      this.selectedItem = this.items()[0];
   }
 
 }
