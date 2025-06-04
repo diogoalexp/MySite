@@ -11,14 +11,16 @@
                 "name": "Inspection Project Management (Evident Scientific)",
                 "start": "2023-05-01",
                 "end": null,
-                "details": "Responsável pela modernização de um sistema legado que realiza análise de dados de Ensaios Não Destrutivos (NDT), migrando-o para as versões mais recentes de .NET e Angular. Automatizei completamente o processo de CI/CD, que anteriormente era manual e uma nova versão do sistema ocorria apenas a cada 6 meses. Com a nova arquitetura e pipeline automatizado, o projeto passou a realizar de 3 a 4 releases por sprint, incluindo mudanças em infraestrutura, banco de dados, APIs, aplicações web e mobile.",
+                "details": "Responsável pela modernização de um sistema legado que realiza análise de dados de Ensaios Não Destrutivos (NDT), migrando-o para as versões mais recentes de .NET e Angular. Automatizando completamente o processo de CI/CD, que anteriormente era manual e uma nova versão do sistema ocorria apenas a cada 6 meses. Com a nova arquitetura e pipeline automatizado, o projeto passou a realizar de 3 a 4 releases por sprint, incluindo mudanças em infraestrutura, banco de dados, APIs, aplicações web e mobile.",
                 "achievements": [
+                    "Migração do sistema ASP.Core 2 para .NET 9",
                     "Desenvolvedor .NET e C#",
-                    "Azure Functions",
-                    "Banco de dados SQLServer",
-                    "Revisão de código no GIT",
-                    "Infrasctutura como código em Terraform",
                     "Desenvolver a interface em Angular",
+                    "Azure Functions",
+                    "Queues e ServiceBus",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no Azure DevOps",
+                    "Infrasctutura como código em Terraform",
                     "Serviços em Docker",
                     "Projeto conduzido em francês e inglês"
                 ],
@@ -33,6 +35,9 @@
                     "SCRUM",
                     "Gitlab",
                     "Azure DevOps",
+                    "Azure",
+                    "ServiceBus",
+                    "Docker",
                     "Jira"
                 ]
             }
@@ -50,15 +55,15 @@
                 "name": "Clinicians Gateway (Krassons Inc)",
                 "start": "2020-01-01, 00:00:00",
                 "end": "2023-05-31, 23:00:00",
-                "details": "Responsável pela manutenção e modernização do sistema que gerencia todas as informações de clínicas de saúde mental na Califórnia (EUA). O sistema abrange o registro e controle de pacientes, médicos, enfermeiros e cuidadores, além de armazenar dados clínicos como planos de tratamento, consultas, sinais vitais, medicações e informações financeiras. Atuei como líder na iniciativa de migração do sistema para novas tecnologias, substituindo uma arquitetura legada por soluções mais modernas e escaláveis.",
+                "details": "Responsável pela manutenção e modernização do sistema que gerencia todas as informações de clínicas de saúde mental na Califórnia (EUA). O sistema abrange o registro e controle de pacientes, médicos, enfermeiros e cuidadores, além de armazenar dados clínicos como planos de tratamento, consultas, sinais vitais, medicações e informações financeiras. Atuando como líder na iniciativa de migração do sistema para novas tecnologias, substituindo uma arquitetura legada por soluções mais modernas e escaláveis.",
                 "achievements": [
-                    "Desenvolvedor .NET e C#",
-                    "Banco de dados SQLServer",
+                    "Criando Plano de Migração com o Padrão Estrangulador",
                     "Migração do sistema ASP.NET 2 para ASP.Core7",
-                    "Revisão de código no GIT",
                     "Projetando a solução React para migração",
+                    "Desenvolvedor .NET e C#",
                     "Desenvolver a interface em React",
-                    "Criando Planos de Migração com o Padrão Estrangulador",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no bitbucket",
                     "Projeto conduzido em inglês"
                 ],
                 "skills": [
@@ -71,7 +76,8 @@
                     "React",
                     "Git",
                     "SCRUM",
-                    "Jira"
+                    "Jira",
+                    "Bitbucket"
                 ]
             },
             {
@@ -81,9 +87,9 @@
                 "details": "Responsável pela manutenção do sistema integrador dos diversos sistemas da Volvo, que consolida e apresenta aos vendedores das concessionárias um arquivo detalhado com todas as informações do veículo, facilitando o processo de venda e atendimento ao cliente.",
                 "achievements": [
                     "Desenvolvedor .NET e C#",
+                    "Desenvolver a interface em Razor",
                     "Banco de dados SQLServer",
                     "Revisão de código no GIT",
-                    "Desenvolver a interface em Razor",
                     "Projeto conduzido em inglês e português"
                 ],
                 "skills": [
@@ -107,9 +113,9 @@
                 "details": "Desenvolvimento de um novo sistema para gerenciamento completo das cortesias oferecidas a clientes que realizam serviços com o Grupo Volvo, centralizando informações e otimizando o controle e a concessão desses benefícios.",
                 "achievements": [
                     "Desenvolvedor .NET e C#",
+                    "Desenvolver a interface em Razor",
                     "Banco de dados SQLServer",
                     "Revisão de código no GIT",
-                    "Desenvolver a interface em Razor",
                     "Projeto conduzido em inglês e português"
                 ],
                 "skills": [
@@ -121,6 +127,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
+                    "Pipelines",
                     "Azure DevOps",
                     "SCRUM",
                     "Jira"
@@ -133,7 +140,7 @@
         "company": "Grupo Positivo",
         "country": "Brasil",
         "city": "Curitiba",
-        "description": "Responsável pela definição da arquitetura de novos projetos e pelo acompanhamento dos respectivos times de desenvolvimento, atuando como SCRUM Master e desenvolvedor Full Stack em diversas iniciativas. Atuei na elaboração e implementação do processo de desenvolvimento, incluindo a escolha da metodologia, definição de padrões e convenções de código, práticas de documentação e estratégias de DevOps. Também fui responsável pela avaliação técnica de candidatos durante o processo seletivo da empresa.",
+        "description": "Responsável pela definição da arquitetura de novos projetos e pelo acompanhamento dos respectivos times de desenvolvimento, atuando como SCRUM Master e desenvolvedor Full Stack em diversas iniciativas. Atuando na elaboração e implementação do processo de desenvolvimento, incluindo a escolha da metodologia, definição de padrões e convenções de código, práticas de documentação e estratégias de DevOps. Também fui responsável pela avaliação técnica de candidatos durante o processo seletivo da empresa.",
         "icon": "assets/icons/companies/positivo.png",
         "projects": [
             {
@@ -142,12 +149,12 @@
                 "end": "2018-09-31, 23:00:00",
                 "details": "Desenvolvimento de um novo sistema de cadastro de candidatos para a Universidade Positivo, com foco em otimizar o processo de inscrição e gestão de dados. Atuação como líder técnico da equipe de desenvolvimento, aplicando a metodologia SCRUM para garantir entregas ágeis e alinhadas aos objetivos do projeto.",
                 "achievements": [
-                    "Desenvolvedor .NET e C#",
-                    "Banco de dados SQLServer",
-                    "Revisão de código no GIT",
-                    "Desenvolver a interface em Angular",
                     "Coordenar a equipe técnica",
                     "Realizar a coleta de requisitos",
+                    "Desenvolvedor .NET e C#",
+                    "Desenvolver a interface em Angular",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
                     "Projeto conduzido em português"
                 ],
                 "skills": [
@@ -160,6 +167,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
+                    "Pipelines",
                     "TFS",
                     "SCRUM"
                 ]
@@ -170,12 +178,12 @@
                 "end": "2018-04-01, 23:00:00",
                 "details": "Desenvolvimento de um novo sistema para gerenciamento completo das informações de aulas da Universidade Positivo, incluindo a reserva de salas de aula, laboratórios, auditórios e demais espaços. Liderança de equipe técnica e aplicação da metodologia SCRUM durante todo o ciclo de desenvolvimento. Criação de um monitor de escala de tempo, similar aos painéis de aeroportos, para exibição dinâmica de horários e locais das aulas.",
                 "achievements": [
-                    "Desenvolvedor .NET e C#",
-                    "Banco de dados SQLServer",
-                    "Revisão de código no GIT",
-                    "Desenvolver a interface em Angular",
                     "Coordenar a equipe técnica",
                     "Realizar a coleta de requisitos",
+                    "Desenvolvedor .NET e C#",
+                    "Desenvolver a interface em Angular",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
                     "Projeto conduzido em português"
                 ],
                 "skills": [
@@ -188,6 +196,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
+                    "Pipelines",
                     "TFS",
                     "SCRUM"
                 ]
@@ -196,14 +205,15 @@
                 "name": "Jarvis DevOps",
                 "start": "2017-09-01, 00:00:00",
                 "end": "2017-12-01, 23:00:00",
-                "details": "Responsável pela atualização do TFS 2010 para o TFS 2018, incluindo a configuração de agentes de compilação e de liberação, além da estruturação do pipeline de implantação. Também desenvolvi um sistema de monitoramento em tempo real para todos os sistemas do Grupo Positivo, exibindo o status e as versões dos aplicativos nos servidores de forma centralizada.",
+                "details": "Responsável pela atualização do TFS 2010 para o TFS 2018, incluindo a configuração de agentes de compilação e de liberação, além da estruturação do pipeline de implantação. Desenvolvendo um sistema de monitoramento em tempo real para todos os sistemas do Grupo Positivo, exibindo o status e as versões dos aplicativos nos servidores de forma centralizada.",
                 "achievements": [
-                    "Desenvolvedor .NET e C#",
-                    "Banco de dados SQLServer",
-                    "Revisão de código no GIT",
-                    "Desenvolver a interface em Angular",
+                    "Migração do TFS 2010 para TFS 2018",
                     "Coordenar a equipe técnica",
                     "Realizar a coleta de requisitos",
+                    "Desenvolvedor .NET e C#",
+                    "Desenvolver a interface em Angular",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
                     "Projeto conduzido em português"
                 ],
                 "skills": [
@@ -216,7 +226,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
-                    "Azure DevOps",
+                    "Pipelines",
                     "TFS",
                     "SCRUM"
                 ]
@@ -237,12 +247,12 @@
                 "end": "2017-09-31, 23:00:00",
                 "details": "Desenvolvimento de um novo sistema para gerenciar todas as informações sobre aplicativos disponíveis para a organização, incluindo o controle de licenças e o processo de solicitação de uso. Condução de um workshop presencial em Dallas, EUA, para coleta de requisitos e alinhamento das necessidades do projeto.",
                 "achievements": [
-                    "Desenvolvedor .NET e C#",
-                    "Banco de dados SQLServer",
-                    "Revisão de código no Azure DevOps",
-                    "Desenvolver a interface em Angular",
                     "Coordenar a equipe técnica",
-                    "Realizar a coleta de requisitos (Dallas - USA)",
+                    "Realizar a coleta de requisitos presencialmente (Dallas - USA)",
+                    "Desenvolvedor .NET e C#",
+                    "Desenvolver a interface em Angular",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
                     "Projeto conduzido em inglês"
                 ],
                 "skills": [
@@ -255,7 +265,8 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
-                    "Azure DevOps",
+                    "Pipelines",
+                    "TFS",
                     "SCRUM"
                 ]
             },
@@ -265,11 +276,11 @@
                 "end": "2015-11-01, 23:00:00",
                 "details": "Desenvolvimento de um novo sistema para gerenciar o uso e as solicitações de aplicativos disponíveis na plataforma virtual AppConnect, focada em máquinas virtuais. Liderança de equipe técnica, aplicando a metodologia SCRUM para garantir a entrega eficiente e alinhada às necessidades do projeto.",
                 "achievements": [
-                    "Desenvolvedor .NET e C#",
-                    "Banco de dados SQLServer",
-                    "Revisão de código no Azure DevOps",
-                    "Desenvolver a interface em Angular",
                     "Coordenar a equipe técnica",
+                    "Desenvolvedor .NET e C#",
+                    "Desenvolver a interface em Angular",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
                     "Projeto conduzido em inglês"
                 ],
                 "skills": [
@@ -282,7 +293,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
-                    "Azure DevOps",
+                    "TFS",
                     "SCRUM"
                 ]
             },
@@ -293,9 +304,9 @@
                 "details": "Responsável pela manutenção do sistema utilizado pela equipe de projetos para controlar os testes e a remediação de todas as ferramentas utilizadas pela empresa, garantindo a integridade e o bom funcionamento dos recursos tecnológicos.",
                 "achievements": [
                     "Desenvolvedor .NET e C#",
-                    "Banco de dados SQLServer",
-                    "Revisão de código no Azure DevOps",
                     "Interface Web em Angular",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
                     "Projeto conduzido em inglês"
                 ],
                 "skills": [
@@ -308,7 +319,7 @@
                     "Javascript",
                     "Git",
                     "CI/CD",
-                    "Azure DevOps",
+                    "TFS",
                     "SCRUM"
                 ]
             },
@@ -319,9 +330,9 @@
                 "details": "Responsável pela manutenção do sistema utilizado pelo Helpdesk, que identifica automaticamente o colaborador durante o atendimento telefônico e fornece todas as informações necessárias para apoiar o analista na resolução das solicitações.",
                 "achievements": [
                     "Desenvolvedor .NET e C#",
-                    "Banco de dados SQLServer",
-                    "Revisão de código no Azure DevOps",
                     "Interface Windows App em WPF",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
                     "Projeto conduzido em inglês e português"
                 ],
                 "skills": [
@@ -329,7 +340,7 @@
                     "C#",
                     "SQLServer",
                     "Git",
-                    "Azure DevOps",
+                    "TFS",
                     "SCRUM"
                 ]
             },
@@ -340,9 +351,9 @@
                 "details": "Desenvolvimento de um novo sistema destinado a solucionar problemas básicos das máquinas, como mapeamento de drivers e gerenciamento de conexões de rede, visando otimizar o desempenho e a confiabilidade do ambiente.",
                 "achievements": [
                     "Desenvolvedor .NET e C#",
-                    "Banco de dados SQLServer",
-                    "Revisão de código no Azure DevOps",
                     "Interface Windows App em WPF",
+                    "Banco de dados SQLServer",
+                    "Revisão de código no TFS",
                     "Projeto conduzido em inglês e português"
                 ],
                 "skills": [
@@ -351,7 +362,7 @@
                     "SQLServer",
                     "Git",
                     "CI/CD",
-                    "Azure DevOps",
+                    "TFS",
                     "SCRUM"
                 ]
             }
@@ -372,9 +383,9 @@
                 "details": "Responsável pela manutenção do sistema de emissão de certidões comprobatórias do Tribunal de Justiça do Estado do Rio de Janeiro, garantindo a continuidade, estabilidade e conformidade do serviço.",
                 "achievements": [
                     "Desenvolvedor .NET e C#",
+                    "Interface Web em ASP",
                     "Banco de dados Oracle",
                     "Revisão de código em SVN",
-                    "Interface Web em ASP",
                     "Projeto conduzido em português"
                 ],
                 "skills": [
@@ -394,9 +405,9 @@
                 "details": "Responsável pela manutenção do sistema de gerenciamento de casos utilizado por tribunais de múltiplos estados, integrado a diversos serviços complementares, como emissão de certidões e controle de mandados.",
                 "achievements": [
                     "Desenvolvedor .NET e C#",
+                    "Interface Web em ASP",
                     "Banco de dados Oracle",
                     "Revisão de código em SVN",
-                    "Interface Web em ASP",
                     "Projeto conduzido em português"
                 ],
                 "skills": [
