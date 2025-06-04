@@ -2,7 +2,11 @@
   "header": {
     "pt": "Portugais",
     "en": "Anglais",
-    "fr": "Français"
+    "fr": "Français",
+    "profile": "Profil",
+    "formation": "Formation",
+    "experience": "Expérience",
+    "certification": "Certificats"
   },
   "profile": {
     "title": "Informaticien & SCRUM Master",

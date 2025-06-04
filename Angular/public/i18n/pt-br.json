@@ -2,7 +2,11 @@
   "header": {
     "pt": "Português",
     "en": "Inglês",
-    "fr": "Francês"
+    "fr": "Francês",
+    "profile": "Perfil",
+    "formation": "Formação",
+    "experience": "Experiência",
+    "certification": "Ceritificados"
   },
   "profile": {
     "title": "Cientista da Computação & SCRUM Master",
