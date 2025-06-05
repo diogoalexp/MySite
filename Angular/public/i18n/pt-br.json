@@ -18,6 +18,14 @@
     "frontend": "anos em frameworks de Frontend",
     "expertise": "Especializado em",
     "confortable": "Confortável com",
-    "fluent": "Fluente em inglês, francês e português"
+    "fluent": "Fluente em inglês, francês e português",
+    "present": "Atualmente"
+  },
+  "general": {
+    "years": "anos",
+    "year": "ano",
+    "months": "meses",
+    "month": "mês",
+    "and": "e"
   }
 }

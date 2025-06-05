@@ -16,3 +16,11 @@ export interface Project {
     achievements: string[];
     skills: string[];
 }
+
+export interface General {
+    years: string;
+    year: string;
+    months: string;
+    month: string;
+    and: string;
+}

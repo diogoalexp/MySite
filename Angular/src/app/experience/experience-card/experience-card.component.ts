@@ -4,10 +4,11 @@ import { ExperienceProjectComponent } from './experience-project/experience-proj
 import { DatePipe } from '@angular/common';
 import { ConvertToPeriod, TimeDiff } from '../../shared/date.util';
 import { PeriodPipe } from '../period.pipe';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-experience-card',
-  imports: [ExperienceProjectComponent, DatePipe, PeriodPipe],
+  imports: [ExperienceProjectComponent, DatePipe, PeriodPipe, TranslatePipe],
   templateUrl: './experience-card.component.html',
   styleUrl: './experience-card.component.css',
 })
@@ -31,7 +32,6 @@ export class ExperienceCardComponent implements OnInit {
 
   calculateExperienceTime() {
     this.experience().projects.forEach((project) => {
-      console.log('project.end', project.end)
       this.currentWork = project.end == null;
       const end = this.currentWork ? new Date() : project.end
 
