@@ -1,0 +1,425 @@
+[
+    {
+        "title": "Systems Analyst",
+        "company": "Ezo Inc",
+        "country": "Canada",
+        "city": "Québec",
+        "description": "Software Consultant specialized in solutions based on Microsoft Azure and .NET, with strong involvement in architecture, development, and modernization of enterprise applications. Experience in cloud environments, CI/CD pipelines with Azure DevOps and Gitlab, security, monitoring, and scalability. Skilled at understanding client needs, proposing efficient technical solutions, and guiding teams in the use of best development and architecture practices in .NET and Azure.",
+        "icon": "assets/icons/companies/ezo.png",
+        "projects": [
+            {
+                "name": "Inspection Project Management (Evident Scientific)",
+                "start": "2023-05-01",
+                "end": null,
+                "details": "Responsible for modernizing a legacy system that performs analysis of Non-Destructive Testing (NDT) data, migrating it to the latest versions of .NET and Angular. Fully automated the CI/CD process, which was previously manual and released new system versions only every 6 months. With the new architecture and automated pipeline, the project now delivers 3 to 4 releases per sprint, including changes in infrastructure, database, APIs, web and mobile applications.",
+                "achievements": [
+                    "Migration from ASP.Core 2 to .NET 9",
+                    ".NET and C# Developer",
+                    "Develop the Angular interface",
+                    "Azure Functions",
+                    "Queues and ServiceBus",
+                    "SQLServer database",
+                    "Code review in Azure DevOps",
+                    "Infrastructure as code in Terraform",
+                    "Services in Docker",
+                    "Project conducted in French and English"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "Git",
+                    "Angular",
+                    "Terraform",
+                    "CI/CD",
+                    "SCRUM",
+                    "Gitlab",
+                    "Azure DevOps",
+                    "Azure",
+                    "ServiceBus",
+                    "Docker",
+                    "Jira"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Senior Software Architect",
+        "company": "CI&T",
+        "country": "Brazil",
+        "city": "Curitiba",
+        "description": "Acting as a Software Architect, responsible for application development and modernization of internal processes. Direct involvement in defining scalable architectures, technology choices, continuous improvement of development practices, and technical alignment among teams.",
+        "icon": "assets/icons/companies/ciandt.png",
+        "projects": [
+            {
+                "name": "Clinicians Gateway (Krassons Inc)",
+                "start": "2020-01-01, 00:00:00",
+                "end": "2023-05-31, 23:00:00",
+                "details": "Responsible for maintenance and modernization of the system managing all mental health clinic information in California (USA). The system covers registration and control of patients, doctors, nurses, and caregivers, as well as storing clinical data like treatment plans, appointments, vital signs, medications, and financial information. Leading the migration initiative to new technologies, replacing a legacy architecture with more modern and scalable solutions.",
+                "achievements": [
+                    "Creating Migration Plan with the Strangler Pattern",
+                    "Migration from ASP.NET 2 to ASP.Core7",
+                    "Designing React solution for migration",
+                    ".NET and C# Developer",
+                    "Developing the React interface",
+                    "SQLServer database",
+                    "Code review on Bitbucket",
+                    "Project conducted in English"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "React",
+                    "Git",
+                    "SCRUM",
+                    "Jira",
+                    "Bitbucket"
+                ]
+            },
+            {
+                "name": "Portal do Veículo (Volvo Group)",
+                "start": "2019-07-01, 00:00:00",
+                "end": "2020-01-01, 23:00:00",
+                "details": "Responsible for maintaining the integrator system for various Volvo systems, consolidating and presenting dealers with a detailed file containing all vehicle information, facilitating the sales and customer service process.",
+                "achievements": [
+                    ".NET and C# Developer",
+                    "Developing the interface in Razor",
+                    "SQLServer database",
+                    "Code review on GIT",
+                    "Project conducted in English and Portuguese"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "Git",
+                    "CI/CD",
+                    "Azure DevOps",
+                    "SCRUM",
+                    "Jira"
+                ]
+            },
+            {
+                "name": "Goodwill (Volvo Group)",
+                "start": "2018-09-01, 00:00:00",
+                "end": "2019-07-01, 23:00:00",
+                "details": "Developed a new system for complete management of the perks offered to clients who use Volvo Group services, centralizing information and optimizing control and granting of these benefits.",
+                "achievements": [
+                    ".NET and C# Developer",
+                    "Developing the interface in Razor",
+                    "SQLServer database",
+                    "Code review on GIT",
+                    "Project conducted in English and Portuguese"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "Git",
+                    "CI/CD",
+                    "Pipelines",
+                    "Azure DevOps",
+                    "SCRUM",
+                    "Jira"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Systems Analyst",
+        "company": "Grupo Positivo",
+        "country": "Brazil",
+        "city": "Curitiba",
+        "description": "Responsible for defining the architecture of new projects and overseeing the respective development teams, acting as SCRUM Master and Full Stack developer in various initiatives. Involved in designing and implementing the development process, including methodology selection, defining coding standards and conventions, documentation practices, and DevOps strategies. Also responsible for the technical evaluation of candidates during the company's recruitment process.",
+        "icon": "assets/icons/companies/positivo.png",
+        "projects": [
+            {
+                "name": "Formulários de Inscrição",
+                "start": "2018-04-01, 00:00:00",
+                "end": "2018-09-31, 23:00:00",
+                "details": "Development of a new candidate registration system for Universidade Positivo, focused on optimizing the application and data management process. Acted as technical lead of the development team, applying SCRUM methodology to ensure agile deliveries aligned with project goals.",
+                "achievements": [
+                    "Coordinated the technical team",
+                    "Gathered requirements",
+                    ".NET and C# Developer",
+                    "Developed the interface in Angular",
+                    "SQLServer database",
+                    "Code review on TFS",
+                    "Project conducted in Portuguese"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "Angular",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "Git",
+                    "CI/CD",
+                    "Pipelines",
+                    "TFS",
+                    "SCRUM"
+                ]
+            },
+            {
+                "name": "Gerenciamento de Recursos",
+                "start": "2017-12-01, 00:00:00",
+                "end": "2018-04-01, 23:00:00",
+                "details": "Development of a new system for comprehensive management of class information at Universidade Positivo, including reservation of classrooms, laboratories, auditoriums, and other spaces. Led the technical team and applied SCRUM methodology throughout the development cycle. Created a time scale monitor, similar to airport display boards, for dynamic presentation of class schedules and locations.",
+                "achievements": [
+                    "Coordinated the technical team",
+                    "Gathered requirements",
+                    ".NET and C# Developer",
+                    "Developed the interface in Angular",
+                    "SQLServer database",
+                    "Code review on TFS",
+                    "Project conducted in Portuguese"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "Angular",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "Git",
+                    "CI/CD",
+                    "Pipelines",
+                    "TFS",
+                    "SCRUM"
+                ]
+            },
+            {
+                "name": "Jarvis DevOps",
+                "start": "2017-09-01, 00:00:00",
+                "end": "2017-12-01, 23:00:00",
+                "details": "Responsible for upgrading TFS 2010 to TFS 2018, including configuration of build and release agents, as well as structuring the deployment pipeline. Developed a real-time monitoring system for all Grupo Positivo systems, displaying the status and versions of applications on servers in a centralized manner.",
+                "achievements": [
+                    "Migrated TFS 2010 to TFS 2018",
+                    "Coordinated the technical team",
+                    "Gathered requirements",
+                    ".NET and C# Developer",
+                    "Developed the interface in Angular",
+                    "SQLServer database",
+                    "Code review on TFS",
+                    "Project conducted in Portuguese"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "Angular",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "Git",
+                    "CI/CD",
+                    "Pipelines",
+                    "TFS",
+                    "SCRUM"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Systems Analyst",
+        "company": "ExxonMobil Corporation",
+        "country": "Brazil",
+        "city": "Curitiba",
+        "description": "Worked as a Full Stack developer and SCRUM Master in the Operational Excellence and Projects departments, with responsibilities in process automation, requirements gathering, technical leadership, and web systems development.",
+        "icon": "assets/icons/companies/exxon.png",
+        "projects": [
+            {
+                "name": "AppTrack",
+                "start": "2015-11-01, 00:00:00",
+                "end": "2017-09-31, 23:00:00",
+                "details": "Developed a new system to manage all information about applications available to the organization, including license control and the request process. Led an in-person workshop in Dallas, USA, for requirements gathering and project alignment.",
+                "achievements": [
+                    "Coordinated the technical team",
+                    "Conducted in-person requirements gathering (Dallas - USA)",
+                    ".NET and C# Developer",
+                    "Developed the interface in Angular",
+                    "SQLServer database",
+                    "Code review on TFS",
+                    "Project conducted in English"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "Angular",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "Git",
+                    "CI/CD",
+                    "Pipelines",
+                    "TFS",
+                    "SCRUM"
+                ]
+            },
+            {
+                "name": "vAppConnect",
+                "start": "2015-02-01, 00:00:00",
+                "end": "2015-11-01, 23:00:00",
+                "details": "Developed a new system to manage the use and requests for applications available on the virtual AppConnect platform, focused on virtual machines. Led the technical team, applying SCRUM methodology to ensure efficient delivery aligned with project needs.",
+                "achievements": [
+                    "Coordinated the technical team",
+                    ".NET and C# Developer",
+                    "Developed the interface in Angular",
+                    "SQLServer database",
+                    "Code review on TFS",
+                    "Project conducted in English"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "Angular",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "Git",
+                    "CI/CD",
+                    "TFS",
+                    "SCRUM"
+                ]
+            },
+            {
+                "name": "Test and Remediation Tool",
+                "start": "2014-09-01, 00:00:00",
+                "end": "2015-02-01, 23:00:00",
+                "details": "Responsible for maintaining the system used by the projects team to control testing and remediation of all tools used by the company, ensuring integrity and proper functioning of technological resources.",
+                "achievements": [
+                    ".NET and C# Developer",
+                    "Web interface in Angular",
+                    "SQLServer database",
+                    "Code review on TFS",
+                    "Project conducted in English"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "Angular",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "Git",
+                    "CI/CD",
+                    "TFS",
+                    "SCRUM"
+                ]
+            },
+            {
+                "name": "Customer Identification Tool",
+                "start": "2014-03-01, 00:00:00",
+                "end": "2014-09-01, 23:00:00",
+                "details": "Maintained the system used by the Helpdesk that automatically identifies the employee during phone support and provides all necessary information to assist the analyst in resolving requests.",
+                "achievements": [
+                    ".NET and C# Developer",
+                    "Windows App interface in WPF",
+                    "SQLServer database",
+                    "Code review on TFS",
+                    "Project conducted in English and Portuguese"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "Git",
+                    "TFS",
+                    "SCRUM"
+                ]
+            },
+            {
+                "name": "CheckMyPC",
+                "start": "2013-10-01, 00:00:00",
+                "end": "2014-03-01, 23:00:00",
+                "details": "Developed a new system aimed at solving basic machine problems such as driver mapping and network connection management, to optimize performance and reliability of the environment.",
+                "achievements": [
+                    ".NET and C# Developer",
+                    "Windows App interface in WPF",
+                    "SQLServer database",
+                    "Code review on TFS",
+                    "Project conducted in English and Portuguese"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "SQLServer",
+                    "Git",
+                    "CI/CD",
+                    "TFS",
+                    "SCRUM"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Developer",
+        "company": "MPS Informática",
+        "country": "Brazil",
+        "city": "Curitiba",
+        "description": "Worked on the development and maintenance of large-scale systems aimed at the Courts of Justice of several Brazilian states. The software undergoes rigorous audit processes, with special focus on the integrity and compliance of data stored in databases.",
+        "icon": "assets/icons/companies/mps.png",
+        "projects": [
+            {
+                "name": "Certidão Comprobatória",
+                "start": "2012-11-01, 00:00:00",
+                "end": "2013-10-31, 23:00:00",
+                "details": "Responsible for maintaining the certificate issuance system for the Court of Justice of the State of Rio de Janeiro, ensuring continuity, stability, and compliance of the service.",
+                "achievements": [
+                    ".NET and C# Developer",
+                    "Web Interface in ASP",
+                    "Oracle database",
+                    "Code review in SVN",
+                    "Project conducted in Portuguese"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "Oracle",
+                    "SVN",
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ]
+            },
+            {
+                "name": "Apolo",
+                "start": "2011-10-01, 00:00:00",
+                "end": "2012-11-01, 23:00:00",
+                "details": "Responsible for maintaining the case management system used by courts in multiple states, integrated with several complementary services such as certificate issuance and warrant control.",
+                "achievements": [
+                    ".NET and C# Developer",
+                    "Web Interface in ASP",
+                    "Oracle database",
+                    "Code review in SVN",
+                    "Project conducted in Portuguese"
+                ],
+                "skills": [
+                    ".NET",
+                    "C#",
+                    "Oracle",
+                    "SVN",
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ]
+            }
+        ]
+    }
+]
