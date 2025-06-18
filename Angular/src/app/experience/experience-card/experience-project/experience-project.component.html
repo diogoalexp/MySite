@@ -1,6 +1,10 @@
 <div class="projects">
     <div class="date">
-      {{displayTime()?.year}} {{displayTime()! | period:'year' | translate}} {{'general.and' | translate}} {{displayTime()?.month}} {{displayTime()! | period:'month' | translate}}
+      @if(displayTime().year == 0){
+        {{displayTime().month}} {{displayTime()! | period:'month' | translate}}
+      }@else{
+        {{displayTime().year}} {{displayTime()! | period:'year' | translate}} {{'general.and' | translate}} {{displayTime().month}} {{displayTime()! | period:'month' | translate}}
+      }
     </div>
     <p>{{project().details}}</p>
 
