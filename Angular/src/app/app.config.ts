@@ -1,15 +1,23 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
+import { APP_INITIALIZER, ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
 import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 import { HttpClient, HttpEventType, HttpHandlerFn, HttpRequest, provideHttpClient, withInterceptors } from '@angular/common/http';
 import { tap } from 'rxjs';
-import {provideTranslateService, TranslateLoader} from "@ngx-translate/core";
+import {provideTranslateService, TranslateLoader, TranslateService} from "@ngx-translate/core";
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 const httpLoaderFactory: (http: HttpClient) => TranslateHttpLoader = (http: HttpClient) =>
-    new TranslateHttpLoader(http, './i18n/', '.json');
+    new TranslateHttpLoader(http, '/assets/i18n/', '.json');
+
+export function appInitializerFactory(translate: TranslateService) {
+  return () => {
+    const lang = 'pt-br';
+    translate.setDefaultLang(lang);
+    return translate.use(lang).toPromise();
+  };
+}
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -24,7 +32,13 @@ export const appConfig: ApplicationConfig = {
         useFactory: httpLoaderFactory,
         deps: [HttpClient],
       },
-    })
+    }),
+    {
+      provide: APP_INITIALIZER,
+      useFactory: appInitializerFactory,
+      deps: [TranslateService],
+      multi: true
+    }
   ]
 };
 

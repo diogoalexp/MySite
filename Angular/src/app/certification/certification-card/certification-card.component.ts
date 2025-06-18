@@ -1,6 +1,7 @@
-import { Component, input } from '@angular/core';
+import { Component, inject, input } from '@angular/core';
 import { Certification } from '../certification.model';
 import { DatePipe } from '@angular/common';
+import { WindowRef } from '../../shared/WindowRef';
 
 @Component({
   selector: 'app-certification-card',
@@ -11,9 +12,10 @@ import { DatePipe } from '@angular/common';
 export class CertificationCardComponent {
   certification = input.required<Certification>();
   isSelected = input.required<Boolean>();
+  private windowRef = inject(WindowRef);
 
   onClickExternalLink = () =>{
-    window.open(this.certification().url , '_blank');
+    this.windowRef.nativeWindow?.open(this.certification().url , '_blank');
   }
 
   cardStyle = () =>{

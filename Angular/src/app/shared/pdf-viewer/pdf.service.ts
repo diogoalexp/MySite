@@ -8,7 +8,6 @@ export class PdfService {
   constructor(private http: HttpClient) {}
 
   getPDF(pdfUrl: string): Promise<Blob | undefined> {
-    console.log("pdfUrl", pdfUrl)
     return this.http.get(pdfUrl, { responseType: 'blob' })
       .toPromise();
   }

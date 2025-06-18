@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./header/header.component";
 import { TranslateService } from '@ngx-translate/core';
+import { WindowRef } from './shared/WindowRef';
 
 @Component({
   selector: 'app-root',
@@ -12,14 +13,14 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent  {
   title = 'Angular';
 
-  constructor(private translate: TranslateService) {
+  constructor(private translate: TranslateService, private windowRef: WindowRef) {
       this.translate.addLangs(['pt-br', 'en', 'fr']);
       this.translate.setDefaultLang('pt-br');
       this.translate.use('pt-br');
   }
 
   ngAfterViewInit() {
-    const savedLang = window.localStorage.getItem('lang');
+    const savedLang = this.windowRef.nativeWindow?.localStorage.getItem('lang');
     const getBrowserLang = this.translate.getBrowserLang() ?  this.translate.getBrowserLang() : this.translate.defaultLang;
 
     this.translate.use(savedLang ? savedLang! : getBrowserLang!);
