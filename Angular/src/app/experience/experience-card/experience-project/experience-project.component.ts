@@ -2,10 +2,11 @@ import { Component, input } from '@angular/core';
 import { Project } from '../../experience.model';
 import { TimeDiff, ConvertToPeriod } from '../../../shared/date.util';
 import { PeriodPipe } from "../../period.pipe";
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-experience-project',
-  imports: [PeriodPipe],
+  imports: [PeriodPipe, TranslatePipe],
   templateUrl: './experience-project.component.html',
   styleUrl: './experience-project.component.css'
 })
